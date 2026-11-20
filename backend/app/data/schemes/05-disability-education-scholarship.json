@@ -1,0 +1,146 @@
+{
+    "id":  "disability-education-scholarship",
+    "name":  {
+                 "en":  "Scholarship for Students with Disabilities",
+                 "hi":  "दिव्यांग विद्यार्थियों के लिए छात्रवृत्ति",
+                 "mr":  "दिव्यांग विद्यार्थ्यांसाठी शिष्यवृत्ती"
+             },
+    "short_name":  {
+                       "en":  "Divyang Scholarship",
+                       "hi":  "दिव्यांग छात्रवृत्ति",
+                       "mr":  "दिव्यांग शिष्यवृत्ती"
+                   },
+    "authority":  {
+                      "en":  "Department of Empowerment of Persons with Disabilities, Government of India",
+                      "hi":  "दिव्यांगजन सशक्तीकरण विभाग, भारत सरकार",
+                      "mr":  "दिव्यांगजन सक्षमीकरण विभाग, भारत सरकार"
+                  },
+    "description":  {
+                        "en":  "Education scholarship and maintenance support for students with a benchmark disability, including assistance for books and assistive study material.",
+                        "hi":  "मान्य दिव्यांगता वाले विद्यार्थियों के लिए शिक्षा छात्रवृत्ति और रख-रखाव सहायता, जिसमें किताबें और सहायक अध्ययन सामग्री भी शामिल है।",
+                        "mr":  "मान्य दिव्यांगत्व असलेल्या विद्यार्थ्यांसाठी शिक्षण शिष्यवृत्ती व निर्वाह सहाय्य, त्यात पुस्तके व सहाय्यक अभ्यास साहित्याचाही समावेश."
+                    },
+    "benefit_amount_per_year":  30000,
+    "deadline":  "2027-02-28",
+    "rules":  [
+                  {
+                      "field":  "disability_status",
+                      "operator":  "eq",
+                      "value":  true,
+                      "label":  {
+                                    "en":  "Applicant has a disability certified at 40% or more",
+                                    "hi":  "आवेदक के पास 40% या अधिक प्रमाणित दिव्यांगता है",
+                                    "mr":  "अर्जदाराकडे 40% किंवा अधिक प्रमाणित दिव्यांगत्व आहे"
+                                },
+                      "weight":  1,
+                      "mandatory":  false
+                  },
+                  {
+                      "field":  "annual_family_income",
+                      "operator":  "lte",
+                      "value":  600000,
+                      "label":  {
+                                    "en":  "Annual family income is ₹6,00,000 or less",
+                                    "hi":  "वार्षिक पारिवारिक आय ₹6,00,000 या उससे कम है",
+                                    "mr":  "वार्षिक कौटुंबिक उत्पन्न ₹6,00,000 किंवा त्यापेक्षा कमी आहे"
+                                },
+                      "weight":  1,
+                      "mandatory":  false
+                  },
+                  {
+                      "field":  "education_level",
+                      "operator":  "exists",
+                      "label":  {
+                                    "en":  "Applicant is currently enrolled in an education programme",
+                                    "hi":  "आवेदक वर्तमान में किसी शिक्षा कार्यक्रम में नामांकित है",
+                                    "mr":  "अर्जदार सध्या कोणत्याही शिक्षण कार्यक्रमात प्रवेशित आहे"
+                                },
+                      "weight":  1,
+                      "mandatory":  false
+                  },
+                  {
+                      "field":  "age",
+                      "operator":  "lt",
+                      "value":  30,
+                      "label":  {
+                                    "en":  "Applicant is younger than 30 years",
+                                    "hi":  "आवेदक की आयु 30 वर्ष से कम है",
+                                    "mr":  "अर्जदाराचे वय 30 वर्षांपेक्षा कमी आहे"
+                                },
+                      "weight":  1,
+                      "mandatory":  false
+                  }
+              ],
+    "required_documents":  [
+                               {
+                                   "type":  "disability_certificate",
+                                   "label":  {
+                                                 "en":  "Disability certificate (UDID or state certificate)",
+                                                 "hi":  "दिव्यांगता प्रमाण पत्र (UDID या राज्य प्रमाण पत्र)",
+                                                 "mr":  "दिव्यांगत्वाचा दाखला (UDID किंवा राज्य दाखला)"
+                                             },
+                                   "validity_days":  null,
+                                   "required_fields":  null
+                               },
+                               {
+                                   "type":  "income_certificate",
+                                   "label":  {
+                                                 "en":  "Income certificate",
+                                                 "hi":  "आय प्रमाण पत्र",
+                                                 "mr":  "उत्पन्नाचा दाखला"
+                                             },
+                                   "validity_days":  null,
+                                   "required_fields":  null
+                               },
+                               {
+                                   "type":  "marksheet",
+                                   "label":  {
+                                                 "en":  "Last qualifying marksheet",
+                                                 "hi":  "पिछली योग्यता परीक्षा की अंकतालिका",
+                                                 "mr":  "शेवटच्या पात्रता परीक्षेचे गुणपत्रक"
+                                             },
+                                   "validity_days":  null,
+                                   "required_fields":  null
+                               }
+                           ],
+    "rights":  [
+                   {
+                       "title":  {
+                                     "en":  "Right to accessible education",
+                                     "hi":  "सुलभ शिक्षा का अधिकार",
+                                     "mr":  "सुलभ शिक्षणाचा अधिकार"
+                                 },
+                       "detail":  {
+                                      "en":  "Institutions must provide reasonable academic accommodations; scholarship approval cannot be withheld for requesting them.",
+                                      "hi":  "संस्थानों को उचित शैक्षणिक सुविधाएँ देनी होंगी; इनके अनुरोध पर छात्रवृत्ति नहीं रोकी जा सकती।",
+                                      "mr":  "संस्थांनी योग्य शैक्षणिक सोयी पुरवणे आवश्यक आहे; त्यांची मागणी केल्यास शिष्यवृत्ती रोखली जाऊ शकत नाही."
+                                  }
+                   },
+                   {
+                       "title":  {
+                                     "en":  "Right to grievance and appeal",
+                                     "hi":  "शिकायत और अपील का अधिकार",
+                                     "mr":  "तक्रार व अपिलाचा अधिकार"
+                                 },
+                       "detail":  {
+                                      "en":  "Complaints about discrimination or delay can be raised with the disability helpline and the department\u0027s grievance officer.",
+                                      "hi":  "भेदभाव या देरी की शिकायत दिव्यांग हेल्पलाइन और विभाग के शिकायत अधिकारी को दी जा सकती है।",
+                                      "mr":  "भेदभाव किंवा उशिराबाबत तक्रार दिव्यांग हेल्पलाइन आणि विभागाच्या तक्रार अधिकाऱ्याकडे करता येते."
+                                  }
+                   }
+               ],
+    "grievance_contact":  {
+                              "name":  "Divyangjan Toll-Free Helpline",
+                              "phone":  "1800-11-1999",
+                              "email":  "helpdesk@depwd.gov.in",
+                              "address":  "Department of Empowerment of Persons with Disabilities, Antyodaya Bhawan, New Delhi 110003"
+                          },
+    "source_url":  "https://depwd.gov.in/",
+    "apply_url":  "/mock-portal/login",
+    "tags":  [
+                 "central",
+                 "disability",
+                 "scholarship"
+             ],
+    "deadline_timezone":  "Asia/Kolkata"
+}

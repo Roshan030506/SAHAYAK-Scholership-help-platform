@@ -1,0 +1,262 @@
+[
+  {
+    "id": "national-scholarship-portal",
+    "name": {
+      "en": "National Scholarship Portal - All Central Schemes",
+      "hi": "राष्ट्रीय छात्रवृत्ति पोर्टल - सभी केंद्रीय योजनाएं",
+      "mr": "राष्ट्रीय शिष्यवृत्ती पोर्टल - सर्व केंद्रीय योजना"
+    },
+    "short_name": {
+      "en": "National Scholarship Portal",
+      "hi": "राष्ट्रीय छात्रवृत्ति पोर्टल",
+      "mr": "राष्ट्रीय शिष्यवृत्ती पोर्टल"
+    },
+    "authority": {
+      "en": "Government of India",
+      "hi": "भारत सरकार",
+      "mr": "भारत सरकार"
+    },
+    "description": {
+      "en": "Register for One-Time Registration (OTR) and apply for central schemes such as PM-USP, AICTE Pragati and Saksham, National Means-cum-Merit, minority, SC/ST and tribal scholarships.",
+      "hi": "वन-टाइम रजिस्ट्रेशन (OTR) करें और PM-USP, AICTE प्रगति व सक्षम, राष्ट्रीय मीन्स-कम-मेरिट, अल्पसंख्यक, SC/ST और जनजातीय छात्रवृत्तियों के लिए आवेदन करें।",
+      "mr": "वन-टाइम नोंदणी (OTR) करा आणि PM-USP, AICTE प्रगती व सक्षम, राष्ट्रीय गुणवत्ता-सह-पात्रता, अल्पसंख्याक, SC/ST आणि आदिवासी शिष्यवृत्त्यांसाठी अर्ज करा."
+    },
+    "url": "https://scholarships.gov.in/",
+    "group": "central",
+    "tags": ["central", "nsp", "otr", "pm-usp", "aicte"]
+  },
+  {
+    "id": "mahadbt-scholarship-portal",
+    "name": {
+      "en": "MahaDBT 2.0 Maharashtra State Scholarships",
+      "hi": "MahaDBT 2.0 महाराष्ट्र राज्य छात्रवृत्तियां",
+      "mr": "MahaDBT 2.0 महाराष्ट्र राज्य शिष्यवृत्ती"
+    },
+    "short_name": {
+      "en": "MahaDBT 2.0",
+      "hi": "MahaDBT 2.0",
+      "mr": "MahaDBT 2.0"
+    },
+    "authority": {
+      "en": "Government of Maharashtra",
+      "hi": "महाराष्ट्र सरकार",
+      "mr": "महाराष्ट्र शासन"
+    },
+    "description": {
+      "en": "Apply for Maharashtra post-matric, freeship, EBC, OBC/VJNT/SBC, SC/ST and departmental scholarships for Academic Year 2026-27 if you are domiciled in the state.",
+      "hi": "महाराष्ट्र के स्थायी निवासी होने पर शैक्षणिक वर्ष 2026-27 के लिए पोस्ट-मैट्रिक, फ्रीशिप, EBC, OBC/VJNT/SBC, SC/ST और विभागीय छात्रवृत्तियों के लिए आवेदन करें।",
+      "mr": "महाराष्ट्राचे रहिवासी असल्यास शैक्षणिक वर्ष 2026-27 साठी पोस्ट-मॅट्रिक, फ्रीशिप, EBC, OBC/VJNT/SBC, SC/ST आणि विभागीय शिष्यवृत्त्यांसाठी अर्ज करा."
+    },
+    "url": "https://mahadbt.maharashtra.gov.in/",
+    "group": "state",
+    "tags": ["state", "maharashtra", "mahadbt", "freeship", "ebc"]
+  },
+  {
+    "id": "myscheme-discovery-portal",
+    "name": {
+      "en": "MyScheme Government Scheme Discovery",
+      "hi": "MyScheme सरकारी योजना खोज",
+      "mr": "MyScheme सरकारी योजना शोध"
+    },
+    "short_name": {
+      "en": "MyScheme",
+      "hi": "MyScheme",
+      "mr": "MyScheme"
+    },
+    "authority": {
+      "en": "Government of India",
+      "hi": "भारत सरकार",
+      "mr": "भारत सरकार"
+    },
+    "description": {
+      "en": "Browse and verify eligibility across hundreds of central and state schemes using category, income, state, disability, education and other profile filters.",
+      "hi": "श्रेणी, आय, राज्य, दिव्यांगता, शिक्षा और अन्य प्रोफाइल फ़िल्टर से सैकड़ों केंद्रीय और राज्य योजनाओं की पात्रता जांचें।",
+      "mr": "प्रवर्ग, उत्पन्न, राज्य, दिव्यांगत्व, शिक्षण आणि इतर प्रोफाइल फिल्टरने शेकडो केंद्र व राज्य योजनांची पात्रता तपासा."
+    },
+    "url": "https://www.myscheme.gov.in/",
+    "group": "discovery",
+    "tags": ["central", "state", "discovery", "eligibility"]
+  },
+  {
+    "id": "tribal-affairs-scholarship-portal",
+    "name": {
+      "en": "Ministry of Tribal Affairs Scholarship Portal",
+      "hi": "जनजातीय कार्य मंत्रालय छात्रवृत्ति पोर्टल",
+      "mr": "आदिवासी कार्य मंत्रालय शिष्यवृत्ती पोर्टल"
+    },
+    "short_name": {
+      "en": "Tribal Affairs Scholarships",
+      "hi": "जनजातीय छात्रवृत्ति",
+      "mr": "आदिवासी शिष्यवृत्ती"
+    },
+    "authority": {
+      "en": "Ministry of Tribal Affairs, Government of India",
+      "hi": "जनजातीय कार्य मंत्रालय, भारत सरकार",
+      "mr": "आदिवासी कार्य मंत्रालय, भारत सरकार"
+    },
+    "description": {
+      "en": "Apply or check ST-specific pre-matric, post-matric, fellowship and DBT scholarships. National Scholarship Portal applications are processed through this department where applicable.",
+      "hi": "ST विद्यार्थियों के लिए प्री-मैट्रिक, पोस्ट-मैट्रिक, फेलोशिप और DBT छात्रवृत्तियों के लिए आवेदन करें या स्थिति देखें। लागू होने पर NSP आवेदन इस विभाग से संसाधित होते हैं।",
+      "mr": "ST विद्यार्थ्यांसाठी प्री-मॅट्रिक, पोस्ट-मॅट्रिक, फेलोशिप आणि DBT शिष्यवृत्त्यांसाठी अर्ज करा किंवा स्थिती पाहा. लागू असल्यास NSP अर्ज या विभागामार्फत प्रक्रिया केले जातात."
+    },
+    "url": "https://dbttribal.gov.in/",
+    "group": "central",
+    "tags": ["central", "tribal", "st", "fellowship", "dbt"]
+  },
+  {
+    "id": "aicte-fellowship-portal",
+    "name": {
+      "en": "AICTE Fellowship and Scholarship Portal",
+      "hi": "AICTE फेलोशिप और छात्रवृत्ति पोर्टल",
+      "mr": "AICTE फेलोशिप आणि शिष्यवृत्ती पोर्टल"
+    },
+    "short_name": {
+      "en": "AICTE Fellowships",
+      "hi": "AICTE फेलोशिप",
+      "mr": "AICTE फेलोशिप"
+    },
+    "authority": {
+      "en": "All India Council for Technical Education (AICTE)",
+      "hi": "अखिल भारतीय तकनीकी शिक्षा परिषद (AICTE)",
+      "mr": "अखिल भारतीय तंत्रशिक्षण परिषद (AICTE)"
+    },
+    "description": {
+      "en": "Technical degree and diploma students can review and apply for AICTE fellowships and scholarships such as Pragati and Saksham, usually processed through the National Scholarship Portal.",
+      "hi": "तकनीकी डिग्री और डिप्लोमा विद्यार्थी AICTE फेलोशिप और प्रगति, सक्षम जैसी छात्रवृत्तियां देख सकते हैं और आवेदन कर सकते हैं, जो सामान्यतः NSP से संसाधित होती हैं।",
+      "mr": "तंत्रशिक्षण पदवी आणि डिप्लोमा विद्यार्थी AICTE फेलोशिप आणि प्रगती, सक्षम यांसारख्या शिष्यवृत्त्या पाहू शकतात व अर्ज करू शकतात; या सहसा NSP द्वारे प्रक्रिया केल्या जातात."
+    },
+    "url": "https://fellowship.aicte.gov.in/",
+    "group": "central",
+    "tags": ["central", "aicte", "technical", "pragati", "saksham"]
+  },
+  {
+    "id": "social-justice-samavesh",
+    "name": {
+      "en": "Ministry of Social Justice and Empowerment (SAMAVESH)",
+      "hi": "सामाजिक न्याय और अधिकारिता मंत्रालय (SAMAVESH)",
+      "mr": "सामाजिक न्याय व सक्षमीकरण मंत्रालय (SAMAVESH)"
+    },
+    "short_name": {
+      "en": "Social Justice SAMAVESH",
+      "hi": "सामाजिक न्याय SAMAVESH",
+      "mr": "सामाजिक न्याय SAMAVESH"
+    },
+    "authority": {
+      "en": "Ministry of Social Justice and Empowerment, Government of India",
+      "hi": "सामाजिक न्याय और अधिकारिता मंत्रालय, भारत सरकार",
+      "mr": "सामाजिक न्याय व सक्षमीकरण मंत्रालय, भारत सरकार"
+    },
+    "description": {
+      "en": "Official ministry portal for SC and OBC scholarships, National Overseas Scholarship, National Fellowship for SC students, disability welfare and social defence programmes.",
+      "hi": "SC और OBC छात्रवृत्तियों, राष्ट्रीय विदेशी छात्रवृत्ति, SC विद्यार्थियों के लिए राष्ट्रीय फेलोशिप, दिव्यांग कल्याण और सामाजिक सुरक्षा कार्यक्रमों का आधिकारिक मंत्रालय पोर्टल।",
+      "mr": "SC आणि OBC शिष्यवृत्त्या, राष्ट्रीय परदेशी शिष्यवृत्ती, SC विद्यार्थ्यांसाठी राष्ट्रीय फेलोशिप, दिव्यांग कल्याण आणि सामाजिक संरक्षण कार्यक्रमांचे अधिकृत मंत्रालय पोर्टल."
+    },
+    "url": "https://socialjustice.gov.in/",
+    "group": "central",
+    "tags": ["central", "social-justice", "sc", "obc", "fellowship", "disability"]
+  },
+  {
+    "id": "dwbdnc-scholarship-portal",
+    "name": {
+      "en": "DWBDNC DNT Scholarship and SEED Portal",
+      "hi": "DWBDNC DNT छात्रवृत्ति और SEED पोर्टल",
+      "mr": "DWBDNC DNT शिष्यवृत्ती आणि SEED पोर्टल"
+    },
+    "short_name": {
+      "en": "DWBDNC DNT Portal",
+      "hi": "DWBDNC DNT पोर्टल",
+      "mr": "DWBDNC DNT पोर्टल"
+    },
+    "authority": {
+      "en": "Development and Welfare Board for De-notified, Nomadic and Semi-Nomadic Communities",
+      "hi": "विमुक्त, घुमंतू और अर्ध-घुमंतू समुदायों के लिए विकास और कल्याण बोर्ड",
+      "mr": "मुक्त, भटक्या व अर्ध-भटक्या समुदायांसाठी विकास व कल्याण मंडळ"
+    },
+    "description": {
+      "en": "Scholarships, free coaching and SEED welfare schemes for De-notified, Nomadic and Semi-Nomadic Communities, including post-matric support from Class 9 onward.",
+      "hi": "विमुक्त, घुमंतू और अर्ध-घुमंतू समुदायों के लिए छात्रवृत्तियां, निःशुल्क कोचिंग और SEED कल्याण योजनाएं, जिनमें कक्षा 9 से पोस्ट-मैट्रिक सहायता शामिल है।",
+      "mr": "मुक्त, भटक्या व अर्ध-भटक्या समुदायांसाठी शिष्यवृत्त्या, मोफत कोचिंग आणि SEED कल्याण योजना, यात इयत्ता 9 वीपासून पोस्ट-मॅट्रिक सहाय्य समाविष्ट आहे."
+    },
+    "url": "https://dwbdnc.dosje.gov.in/",
+    "group": "central",
+    "tags": ["central", "dnt", "dwbdnc", "seed", "post-matric"]
+  },
+  {
+    "id": "buddy4study-scholarship-portal",
+    "name": {
+      "en": "Buddy4Study CSR and Foundation Scholarships",
+      "hi": "Buddy4Study CSR और फाउंडेशन छात्रवृत्तियां",
+      "mr": "Buddy4Study CSR आणि फाउंडेशन शिष्यवृत्ती"
+    },
+    "short_name": {
+      "en": "Buddy4Study",
+      "hi": "Buddy4Study",
+      "mr": "Buddy4Study"
+    },
+    "authority": {
+      "en": "Buddy4Study and participating corporate foundations",
+      "hi": "Buddy4Study और सहभागी कॉर्पोरेट फाउंडेशन",
+      "mr": "Buddy4Study आणि सहभागी कॉर्पोरेट फाउंडेशन"
+    },
+    "description": {
+      "en": "Apply directly to corporate and NGO schemes such as SBI Asha, HDFC Parivartan, Reliance Foundation and Tata Trusts through one application portal.",
+      "hi": "SBI आशा, HDFC पारिवर्तन, रिलायंस फ़ाउंडेशन और टाटा ट्रस्ट जैसी कॉर्पोरेट व एनजीओ योजनाओं के लिए एक ही पोर्टल से सीधे आवेदन करें।",
+      "mr": "SBI आशा, HDFC परिवर्तन, रिलायन्स फाउंडेशन आणि टाटा ट्रस्ट यांसारख्या कॉर्पोरेट व एनजीओ योजनांसाठी एकाच पोर्टलवरून थेट अर्ज करा."
+    },
+    "url": "https://www.buddy4study.com/",
+    "group": "csr",
+    "tags": ["csr", "corporate", "ngo", "sbi", "hdfc", "reliance"]
+  },
+  {
+    "id": "vidyasaarathi-scholarship-portal",
+    "name": {
+      "en": "Vidyasaarathi Corporate Scholarships",
+      "hi": "Vidyasaarathi कॉर्पोरेट छात्रवृत्तियां",
+      "mr": "Vidyasaarathi कॉर्पोरेट शिष्यवृत्ती"
+    },
+    "short_name": {
+      "en": "Vidyasaarathi",
+      "hi": "Vidyasaarathi",
+      "mr": "Vidyasaarathi"
+    },
+    "authority": {
+      "en": "NSDL / Protean eGov and participating corporate sponsors",
+      "hi": "NSDL / Protean eGov और सहभागी कॉर्पोरेट प्रायोजक",
+      "mr": "NSDL / Protean eGov आणि सहभागी कॉर्पोरेट प्रायोजक"
+    },
+    "description": {
+      "en": "Apply for corporate-funded scholarships from companies such as ACC, Tata and Larsen & Toubro for school, technical, undergraduate and postgraduate study.",
+      "hi": "ACC, टाटा और लार्सन एंड टुब्रो जैसी कंपनियों की कॉर्पोरेट-वित्तित छात्रवृत्तियों के लिए स्कूल, तकनीकी, स्नातक और स्नातकोत्तर पढ़ाई हेतु आवेदन करें।",
+      "mr": "ACC, टाटा आणि लार्सन अँड टुब्रो यांसारख्या कंपन्यांच्या कॉर्पोरेट-निधीय शिष्यवृत्त्यांसाठी शालेय, तांत्रिक, पदवी आणि पदव्युत्तर शिक्षणासाठी अर्ज करा."
+    },
+    "url": "https://www.vidyasaarathi.com/",
+    "group": "csr",
+    "tags": ["csr", "corporate", "nsdl", "protean", "tata", "lnt"]
+  },
+  {
+    "id": "scholarsbox-scholarship-portal",
+    "name": {
+      "en": "ScholarsBox Education Grants",
+      "hi": "ScholarsBox शिक्षा अनुदान",
+      "mr": "ScholarsBox शिक्षण अनुदान"
+    },
+    "short_name": {
+      "en": "ScholarsBox",
+      "hi": "ScholarsBox",
+      "mr": "ScholarsBox"
+    },
+    "authority": {
+      "en": "ScholarsBox and participating philanthropic organisations",
+      "hi": "ScholarsBox और सहभागी परोपकारी संगठन",
+      "mr": "ScholarsBox आणि सहभागी परोपकारी संस्था"
+    },
+    "description": {
+      "en": "Discover corporate, NGO and philanthropic education grants for school, college, technical and professional students.",
+      "hi": "स्कूल, कॉलेज, तकनीकी और पेशेवर विद्यार्थियों के लिए कॉर्पोरेट, एनजीओ और परोपकारी शिक्षा अनुदान खोजें।",
+      "mr": "शाळा, महाविद्यालय, तांत्रिक आणि व्यावसायिक विद्यार्थ्यांसाठी कॉर्पोरेट, एनजीओ आणि परोपकारी शिक्षण अनुदान शोधा."
+    },
+    "url": "https://scholarsbox.com/",
+    "group": "csr",
+    "tags": ["csr", "ngo", "philanthropy", "aggregator"]
+  }
+]

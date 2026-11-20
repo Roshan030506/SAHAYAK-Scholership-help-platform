@@ -1,0 +1,165 @@
+{
+  "id": "post-matric-st",
+  "name": {
+    "en": "Post-Matric Scholarship for ST Students",
+    "hi": "ST विद्यार्थियों के लिए पोस्ट-मैट्रिक छात्रवृत्ति",
+    "mr": "ST विद्यार्थ्यांसाठी पोस्ट-मॅट्रिक शिष्यवृत्ती"
+  },
+  "short_name": {
+    "en": "Post-Matric ST",
+    "hi": "पोस्ट-मैट्रिक ST",
+    "mr": "पोस्ट-मॅट्रिक ST"
+  },
+  "authority": {
+    "en": "Ministry of Tribal Affairs, Government of India",
+    "hi": "जनजातीय मामलों का मंत्रालय, भारत सरकार",
+    "mr": "आदिवासी व्यवहार मंत्रालय, भारत सरकार"
+  },
+  "description": {
+    "en": "Fee support and monthly maintenance for Scheduled Tribe students continuing education after class 10, with family income up to ₹2.5 lakh.",
+    "hi": "कक्षा 10 के बाद पढ़ाई करने वाले अनुसूचित जनजाति (ST) विद्यार्थियों के लिए शुल्क सहायता और मासिक रख-रखाव भत्ता, पारिवारिक आय ₹2.5 लाख तक।",
+    "mr": "इयत्ता 10 वीनंतर शिक्षण घेणाऱ्या अनुसूचित जमाती (ST) विद्यार्थ्यांसाठी शुल्क सहाय्य आणि मासिक निर्वाह भत्ता, कौटुंबिक उत्पन्न ₹2.5 लाखापर्यंत."
+  },
+  "benefit_amount_per_year": 40000,
+  "deadline": "2026-12-15",
+  "rules": [
+    {
+      "field": "category",
+      "operator": "eq",
+      "label": {
+        "en": "Applicant belongs to a Scheduled Tribe (ST) community",
+        "hi": "आवेदक अनुसूचित जनजाति (ST) समुदाय से है",
+        "mr": "अर्जदार अनुसूचित जमाती (ST) समुदायाचा आहे"
+      },
+      "weight": 1,
+      "mandatory": false,
+      "value": "ST"
+    },
+    {
+      "field": "annual_family_income",
+      "operator": "lte",
+      "label": {
+        "en": "Annual family income is ₹2,50,000 or less",
+        "hi": "वार्षिक पारिवारिक आय ₹2,50,000 या उससे कम है",
+        "mr": "वार्षिक कौटुंबिक उत्पन्न ₹2,50,000 किंवा त्यापेक्षा कमी आहे"
+      },
+      "weight": 1,
+      "mandatory": false,
+      "value": 250000
+    },
+    {
+      "field": "education_level",
+      "operator": "in",
+      "label": {
+        "en": "Applicant is studying in class 11 or above (a post-matric course)",
+        "hi": "आवेदक कक्षा 11 या उससे ऊपर (पोस्ट-मैट्रिक कोर्स) में पढ़ रहा है",
+        "mr": "अर्जदार इयत्ता 11 वी किंवा त्यापुढील (पोस्ट-मॅट्रिक अभ्यासक्रम) शिकत आहे"
+      },
+      "weight": 1,
+      "mandatory": false,
+      "value": [
+        "class_11",
+        "class_12",
+        "undergraduate",
+        "postgraduate",
+        "diploma",
+        "iti"
+      ]
+    },
+    {
+      "field": "institution_type",
+      "operator": "exists",
+      "label": {
+        "en": "Applicant is enrolled in a recognised educational institution",
+        "hi": "आवेदक मान्यता प्राप्त शिक्षण संस्थान में नामांकित है",
+        "mr": "अर्जदार मान्यताप्राप्त शैक्षणिक संस्थेत प्रवेशित आहे"
+      },
+      "weight": 1,
+      "mandatory": false
+    }
+  ],
+  "required_documents": [
+    {
+      "type": "caste_certificate",
+      "label": {
+        "en": "Caste certificate",
+        "hi": "जाति प्रमाण पत्र",
+        "mr": "जातीचा दाखला"
+      },
+      "validity_days": null,
+      "required_fields": []
+    },
+    {
+      "type": "income_certificate",
+      "label": {
+        "en": "Income certificate",
+        "hi": "आय प्रमाण पत्र",
+        "mr": "उत्पन्नाचा दाखला"
+      },
+      "validity_days": null,
+      "required_fields": []
+    },
+    {
+      "type": "marksheet",
+      "label": {
+        "en": "Last qualifying marksheet",
+        "hi": "पिछली योग्यता परीक्षा की अंकतालिका",
+        "mr": "शेवटच्या पात्रता परीक्षेचे गुणपत्रक"
+      },
+      "validity_days": null,
+      "required_fields": []
+    },
+    {
+      "type": "bank_passbook",
+      "label": {
+        "en": "Bank passbook (student's own account)",
+        "hi": "बैंक पासबुक (विद्यार्थी के अपने खाते का)",
+        "mr": "बँक पासबुक (विद्यार्थ्याच्या स्वतःच्या खात्याचे)"
+      },
+      "validity_days": null,
+      "required_fields": []
+    }
+  ],
+  "rights": [
+    {
+      "title": {
+        "en": "Right to a written decision",
+        "hi": "लेखी निर्णय का अधिकार",
+        "mr": "लेखी निर्णयाचा अधिकार"
+      },
+      "detail": {
+        "en": "The department or foundation must record a reason if your application is rejected, and you may ask for a copy.",
+        "hi": "आवेदन अस्वीकार होने पर विभाग या फ़ाउंडेशन को कारण दर्ज करना होगा और आप उसकी प्रति मांग सकते हैं।",
+        "mr": "अर्ज नाकारल्यास विभाग किंवा फाउंडेशनने कारण नोंदवणे आवश्यक आहे आणि तुम्ही त्याची प्रत मागू शकता."
+      }
+    },
+    {
+      "title": {
+        "en": "Right to grievance redressal",
+        "hi": "शिकायत निवारण का अधिकार",
+        "mr": "तक्रार निवारणाचा अधिकार"
+      },
+      "detail": {
+        "en": "If the scholarship is delayed beyond 60 days, you can escalate using the grievance contact shown below.",
+        "hi": "छात्रवृत्ति 60 दिनों से अधिक देर होने पर आप नीचे दिए संपर्क का उपयोग कर शिकायत दर्ज कर सकते हैं।",
+        "mr": "शिष्यवृत्ती 60 दिवसांपेक्षा जास्त उशिरा आल्यास खालील संपर्क वापरून तुम्ही तक्रार नोंदवू शकता."
+      }
+    }
+  ],
+  "grievance_contact": {
+    "name": "Ministry of Tribal Affairs Scholarship Helpdesk",
+    "phone": "011-23343708",
+    "email": "fellowship-tribal@nic.in",
+    "address": "Room No. 750, A-Wing, Shastri Bhawan, New Delhi 110001"
+  },
+  "source_url": "https://dbttribal.gov.in/",
+  "apply_url": "/mock-portal/login",
+  "tags": [
+    "central",
+    "nsp",
+    "tribal",
+    "st",
+    "post-matric"
+  ],
+  "deadline_timezone": "Asia/Kolkata"
+}

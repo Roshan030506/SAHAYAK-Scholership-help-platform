@@ -1,0 +1,155 @@
+{
+  "id": "sbi-asha",
+  "name": {
+    "en": "SBI Platinum Jubilee Asha Scholarship",
+    "hi": "SBI प्लेटिनम जुबली आशा छात्रवृत्ति",
+    "mr": "SBI प्लॅटिनम ज्युबली आशा शिष्यवृत्ती"
+  },
+  "short_name": {
+    "en": "SBI Asha",
+    "hi": "SBI आशा",
+    "mr": "SBI आशा"
+  },
+  "authority": {
+    "en": "SBI Foundation",
+    "hi": "SBI फ़ाउंडेशन",
+    "mr": "SBI फाउंडेशन"
+  },
+  "description": {
+    "en": "Merit-cum-means scholarship for students from low-income families, from class 9 through postgraduate study; undergraduate awards start at ₹15,000 per year.",
+    "hi": "कम आय वाले परिवारों के मेधावी विद्यार्थियों के लिए कक्षा 9 से स्नातकोत्तर तक छात्रवृत्ति; स्नातक स्तर पर वार्षिक ₹15,000 से शुरू।",
+    "mr": "कमी उत्पन्न असलेल्या कुटुंबांतील गुणवंत विद्यार्थ्यांसाठी इयत्ता 9 वीपासून पदव्युत्तरपर्यंत शिष्यवृत्ती; पदवी स्तरावर दरवर्षी ₹15,000 पासून."
+  },
+  "benefit_amount_per_year": 15000,
+  "deadline": "2027-09-04",
+  "rules": [
+    {
+      "field": "annual_family_income",
+      "operator": "lte",
+      "label": {
+        "en": "Annual family income is ₹6,00,000 or less",
+        "hi": "वार्षिक पारिवारिक आय ₹6,00,000 या उससे कम है",
+        "mr": "वार्षिक कौटुंबिक उत्पन्न ₹6,00,000 किंवा त्यापेक्षा कमी आहे"
+      },
+      "weight": 1,
+      "mandatory": false,
+      "value": 600000
+    },
+    {
+      "field": "last_exam_percentage",
+      "operator": "gte",
+      "label": {
+        "en": "Scored 60% or more in the last qualifying examination",
+        "hi": "पिछली योग्यता परीक्षा में 60% या अधिक अंक प्राप्त किए",
+        "mr": "शेवटच्या पात्रता परीक्षेत 60% किंवा अधिक गुण मिळवले"
+      },
+      "weight": 1,
+      "mandatory": false,
+      "value": 60
+    },
+    {
+      "field": "education_level",
+      "operator": "in",
+      "label": {
+        "en": "Applicant is studying in class 9 or above",
+        "hi": "आवेदक कक्षा 9 या उससे ऊपर पढ़ रहा है",
+        "mr": "अर्जदार इयत्ता 9 वी किंवा त्यापुढे शिकत आहे"
+      },
+      "weight": 1,
+      "mandatory": false,
+      "value": [
+        "class_9",
+        "class_10",
+        "class_11",
+        "class_12",
+        "undergraduate",
+        "postgraduate",
+        "diploma",
+        "iti"
+      ]
+    }
+  ],
+  "required_documents": [
+    {
+      "type": "income_certificate",
+      "label": {
+        "en": "Income certificate",
+        "hi": "आय प्रमाण पत्र",
+        "mr": "उत्पन्नाचा दाखला"
+      },
+      "validity_days": null,
+      "required_fields": []
+    },
+    {
+      "type": "marksheet",
+      "label": {
+        "en": "Last qualifying marksheet",
+        "hi": "पिछली योग्यता परीक्षा की अंकतालिका",
+        "mr": "शेवटच्या पात्रता परीक्षेचे गुणपत्रक"
+      },
+      "validity_days": null,
+      "required_fields": []
+    },
+    {
+      "type": "bank_passbook",
+      "label": {
+        "en": "Bank passbook (student's own account)",
+        "hi": "बैंक पासबुक (विद्यार्थी के अपने खाते का)",
+        "mr": "बँक पासबुक (विद्यार्थ्याच्या स्वतःच्या खात्याचे)"
+      },
+      "validity_days": null,
+      "required_fields": []
+    },
+    {
+      "type": "student_id",
+      "label": {
+        "en": "Student ID or enrolment proof",
+        "hi": "छात्र पहचान पत्र या नामांकन प्रमाण",
+        "mr": "विद्यार्थी ओळखपत्र किंवा प्रवेश पुरावा"
+      },
+      "validity_days": null,
+      "required_fields": []
+    }
+  ],
+  "rights": [
+    {
+      "title": {
+        "en": "Right to a written decision",
+        "hi": "लेखी निर्णय का अधिकार",
+        "mr": "लेखी निर्णयाचा अधिकार"
+      },
+      "detail": {
+        "en": "The department or foundation must record a reason if your application is rejected, and you may ask for a copy.",
+        "hi": "आवेदन अस्वीकार होने पर विभाग या फ़ाउंडेशन को कारण दर्ज करना होगा और आप उसकी प्रति मांग सकते हैं।",
+        "mr": "अर्ज नाकारल्यास विभाग किंवा फाउंडेशनने कारण नोंदवणे आवश्यक आहे आणि तुम्ही त्याची प्रत मागू शकता."
+      }
+    },
+    {
+      "title": {
+        "en": "Right to grievance redressal",
+        "hi": "शिकायत निवारण का अधिकार",
+        "mr": "तक्रार निवारणाचा अधिकार"
+      },
+      "detail": {
+        "en": "If the scholarship is delayed beyond 60 days, you can escalate using the grievance contact shown below.",
+        "hi": "छात्रवृत्ति 60 दिनों से अधिक देर होने पर आप नीचे दिए संपर्क का उपयोग कर शिकायत दर्ज कर सकते हैं।",
+        "mr": "शिष्यवृत्ती 60 दिवसांपेक्षा जास्त उशिरा आल्यास खालील संपर्क वापरून तुम्ही तक्रार नोंदवू शकता."
+      }
+    }
+  ],
+  "grievance_contact": {
+    "name": "SBI Foundation Asha Scholarship Support",
+    "phone": "080-47285300",
+    "email": "ashascholarship@sbifoundation.co.in",
+    "address": "SBI Foundation, Maker Chambers IV, Nariman Point, Mumbai 400021"
+  },
+  "source_url": "https://www.sbiashascholarship.co.in/",
+  "apply_url": "/mock-portal/login",
+  "tags": [
+    "csr",
+    "buddy4study",
+    "sbi",
+    "merit-cum-means"
+  ],
+  "deadline_timezone": "Asia/Kolkata"
+}

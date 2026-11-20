@@ -1,0 +1,151 @@
+{
+    "id":  "nmms-scholarship",
+    "name":  {
+                 "en":  "National Means-cum-Merit Scholarship",
+                 "hi":  "राष्ट्रीय साधन-सह-मेधा छात्रवृत्ति",
+                 "mr":  "राष्ट्रीय साधन-सह-गुणवत्ता शिष्यवृत्ती"
+             },
+    "short_name":  {
+                       "en":  "NMMS",
+                       "hi":  "NMMS",
+                       "mr":  "NMMS"
+                   },
+    "authority":  {
+                      "en":  "Department of School Education and Literacy, Government of India",
+                      "hi":  "स्कूल शिक्षा और साक्षरता विभाग, भारत सरकार",
+                      "mr":  "शालेय शिक्षण व साक्षरता विभाग, भारत सरकार"
+                  },
+    "description":  {
+                        "en":  "Scholarship for meritorious class 8 students in government and local-body schools, intended to reduce dropout at the secondary stage.",
+                        "hi":  "सरकारी और स्थानीय निकाय स्कूलों के कक्षा 8 के मेधावी विद्यार्थियों के लिए छात्रवृत्ति, जिससे माध्यमिक स्तर पर ड्रॉपआउट कम हो।",
+                        "mr":  "सरकारी व स्थानिक स्वराज्य संस्थांच्या शाळांतील इयत्ता 8 वीच्या गुणवंत विद्यार्थ्यांसाठी शिष्यवृत्ती, माध्यमिक टप्प्यावर गळती कमी करण्यासाठी."
+                    },
+    "benefit_amount_per_year":  12000,
+    "deadline":  "2027-01-15",
+    "rules":  [
+                  {
+                      "field":  "education_level",
+                      "operator":  "eq",
+                      "value":  "class_8",
+                      "label":  {
+                                    "en":  "Applicant is currently studying in class 8",
+                                    "hi":  "आवेदक वर्तमान में कक्षा 8 में पढ़ रहा है",
+                                    "mr":  "अर्जदार सध्या इयत्ता 8 वीत शिकत आहे"
+                                },
+                      "weight":  1,
+                      "mandatory":  false
+                  },
+                  {
+                      "field":  "annual_family_income",
+                      "operator":  "lte",
+                      "value":  350000,
+                      "label":  {
+                                    "en":  "Annual family income is ₹3,50,000 or less",
+                                    "hi":  "वार्षिक पारिवारिक आय ₹3,50,000 या उससे कम है",
+                                    "mr":  "वार्षिक कौटुंबिक उत्पन्न ₹3,50,000 किंवा त्यापेक्षा कमी आहे"
+                                },
+                      "weight":  1,
+                      "mandatory":  false
+                  },
+                  {
+                      "field":  "institution_type",
+                      "operator":  "in",
+                      "value":  [
+                                    "government",
+                                    "municipal"
+                                ],
+                      "label":  {
+                                    "en":  "Applicant studies in a government or local-body school",
+                                    "hi":  "आवेदक सरकारी या स्थानीय निकाय स्कूल में पढ़ता है",
+                                    "mr":  "अर्जदार सरकारी किंवा स्थानिक स्वराज्य संस्थेच्या शाळेत शिकतो"
+                                },
+                      "weight":  1,
+                      "mandatory":  false
+                  },
+                  {
+                      "field":  "last_exam_percentage",
+                      "operator":  "gte",
+                      "value":  55,
+                      "label":  {
+                                    "en":  "Scored at least 55% in the previous class",
+                                    "hi":  "पिछली कक्षा में कम से कम 55% अंक प्राप्त किए",
+                                    "mr":  "मागील इयत्तेत किमान 55% गुण मिळवले"
+                                },
+                      "weight":  1,
+                      "mandatory":  false
+                  }
+              ],
+    "required_documents":  [
+                               {
+                                   "type":  "income_certificate",
+                                   "label":  {
+                                                 "en":  "Income certificate",
+                                                 "hi":  "आय प्रमाण पत्र",
+                                                 "mr":  "उत्पन्नाचा दाखला"
+                                             },
+                                   "validity_days":  null,
+                                   "required_fields":  null
+                               },
+                               {
+                                   "type":  "marksheet",
+                                   "label":  {
+                                                 "en":  "Previous class marksheet",
+                                                 "hi":  "पिछली कक्षा की अंकतालिका",
+                                                 "mr":  "मागील इयत्तेचे गुणपत्रक"
+                                             },
+                                   "validity_days":  null,
+                                   "required_fields":  null
+                               },
+                               {
+                                   "type":  "ration_card",
+                                   "label":  {
+                                                 "en":  "Ration card",
+                                                 "hi":  "राशन कार्ड",
+                                                 "mr":  "रेशन कार्ड"
+                                             },
+                                   "validity_days":  null,
+                                   "required_fields":  null
+                               }
+                           ],
+    "rights":  [
+                   {
+                       "title":  {
+                                     "en":  "Right to continue schooling",
+                                     "hi":  "स्कूली शिक्षा जारी रखने का अधिकार",
+                                     "mr":  "शालेय शिक्षण सुरू ठेवण्याचा अधिकार"
+                                 },
+                       "detail":  {
+                                      "en":  "The scholarship must not be stopped without a written reason and an opportunity for the student to respond.",
+                                      "hi":  "छात्रवृत्ति लिखित कारण और विद्यार्थी को उत्तर देने का अवसर दिए बिना बंद नहीं की जा सकती।",
+                                      "mr":  "लेखी कारण आणि विद्यार्थ्याला उत्तर देण्याची संधी दिल्याशिवाय शिष्यवृत्ती थांबवली जाऊ शकत नाही."
+                                  }
+                   },
+                   {
+                       "title":  {
+                                     "en":  "Right to school support",
+                                     "hi":  "स्कूल सहायता का अधिकार",
+                                     "mr":  "शाळेच्या सहाय्याचा अधिकार"
+                                 },
+                       "detail":  {
+                                      "en":  "Your school must verify attendance and bank details and forward the application without demanding extra fees.",
+                                      "hi":  "आपके स्कूल को उपस्थिति और बैंक विवरण सत्यापित कर अतिरिक्त शुल्क लिए बिना आवेदन आगे भेजना होगा।",
+                                      "mr":  "तुमच्या शाळेने उपस्थिती व बँक तपशील पडताळून अतिरिक्त शुल्क न घेता अर्ज पुढे पाठवणे आवश्यक आहे."
+                                  }
+                   }
+               ],
+    "grievance_contact":  {
+                              "name":  "NMMS State Nodal Office",
+                              "phone":  "0120-6619540",
+                              "email":  "helpdesk@scholarships.gov.in",
+                              "address":  "Department of School Education and Literacy, Shastri Bhawan, New Delhi 110001"
+                          },
+    "source_url":  "https://scholarships.gov.in/",
+    "apply_url":  "/mock-portal/login",
+    "tags":  [
+                 "central",
+                 "class-8",
+                 "merit",
+                 "school"
+             ],
+    "deadline_timezone":  "Asia/Kolkata"
+}

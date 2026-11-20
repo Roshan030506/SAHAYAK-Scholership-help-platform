@@ -1,0 +1,183 @@
+{
+    "id":  "maha-fee-reimbursement",
+    "name":  {
+                 "en":  "Maharashtra Fee Reimbursement Scheme",
+                 "hi":  "महाराष्ट्र शिक्षण शुल्क प्रतिपूर्ति योजना",
+                 "mr":  "महाराष्ट्र शिक्षण शुल्क परतावा योजना"
+             },
+    "short_name":  {
+                       "en":  "Maha Fee Waiver",
+                       "hi":  "महा शुल्क माफी",
+                       "mr":  "महा शुल्क माफी"
+                   },
+    "authority":  {
+                      "en":  "Higher and Technical Education Department, Government of Maharashtra",
+                      "hi":  "उच्च और तकनीकी शिक्षा विभाग, महाराष्ट्र सरकार",
+                      "mr":  "उच्च व तंत्रशिक्षण विभाग, महाराष्ट्र शासन"
+                  },
+    "description":  {
+                        "en":  "Reimbursement of tuition and exam fees for economically weaker and reserved-category students studying after class 10 in Maharashtra.",
+                        "hi":  "महाराष्ट्र में कक्षा 10 के बाद पढ़ने वाले आर्थिक रूप से कमजोर और आरक्षित श्रेणी के विद्यार्थियों के लिए ट्यूशन और परीक्षा शुल्क की प्रतिपूर्ति।",
+                        "mr":  "महाराष्ट्रात इयत्ता 10 वीनंतर शिकणाऱ्या आर्थिकदृष्ट्या कमजोर व आरक्षित प्रवर्गातील विद्यार्थ्यांना शिक्षण व परीक्षा शुल्क परतावा."
+                    },
+    "benefit_amount_per_year":  50000,
+    "deadline":  "2027-01-31",
+    "rules":  [
+                  {
+                      "field":  "state",
+                      "operator":  "eq",
+                      "value":  "Maharashtra",
+                      "label":  {
+                                    "en":  "Applicant is a domiciled resident of Maharashtra",
+                                    "hi":  "आवेदक महाराष्ट्र का स्थायी निवासी है",
+                                    "mr":  "अर्जदार महाराष्ट्राचा रहिवासी आहे"
+                                },
+                      "weight":  1,
+                      "mandatory":  false
+                  },
+                  {
+                      "field":  "category",
+                      "operator":  "in",
+                      "value":  [
+                                    "OBC",
+                                    "EWS",
+                                    "SC",
+                                    "ST"
+                                ],
+                      "label":  {
+                                    "en":  "Applicant belongs to an eligible category (OBC, EWS, SC or ST)",
+                                    "hi":  "आवेदक पात्र श्रेणी (OBC, EWS, SC या ST) से है",
+                                    "mr":  "अर्जदार पात्र प्रवर्गातील आहे (OBC, EWS, SC किंवा ST)"
+                                },
+                      "weight":  1,
+                      "mandatory":  false
+                  },
+                  {
+                      "field":  "annual_family_income",
+                      "operator":  "lte",
+                      "value":  800000,
+                      "label":  {
+                                    "en":  "Annual family income is ₹8,00,000 or less",
+                                    "hi":  "वार्षिक पारिवारिक आय ₹8,00,000 या उससे कम है",
+                                    "mr":  "वार्षिक कौटुंबिक उत्पन्न ₹8,00,000 किंवा त्यापेक्षा कमी आहे"
+                                },
+                      "weight":  1,
+                      "mandatory":  false
+                  },
+                  {
+                      "field":  "education_level",
+                      "operator":  "in",
+                      "value":  [
+                                    "class_11",
+                                    "class_12",
+                                    "undergraduate",
+                                    "postgraduate",
+                                    "diploma",
+                                    "iti"
+                                ],
+                      "label":  {
+                                    "en":  "Applicant is studying in class 11 or a higher course in Maharashtra",
+                                    "hi":  "आवेदक महाराष्ट्र में कक्षा 11 या उससे ऊपर के कोर्स में पढ़ रहा है",
+                                    "mr":  "अर्जदार महाराष्ट्रात इयत्ता 11 वी किंवा त्यापुढील अभ्यासक्रमात शिकत आहे"
+                                },
+                      "weight":  1,
+                      "mandatory":  false
+                  },
+                  {
+                      "field":  "bank_account_present",
+                      "operator":  "eq",
+                      "value":  true,
+                      "label":  {
+                                    "en":  "Applicant has an active bank account in their own name",
+                                    "hi":  "आवेदक के अपने नाम पर सक्रिय बैंक खाता है",
+                                    "mr":  "अर्जदाराच्या स्वतःच्या नावावर सक्रिय बँक खाते आहे"
+                                },
+                      "weight":  1,
+                      "mandatory":  false
+                  }
+              ],
+    "required_documents":  [
+                               {
+                                   "type":  "income_certificate",
+                                   "label":  {
+                                                 "en":  "Income certificate",
+                                                 "hi":  "आय प्रमाण पत्र",
+                                                 "mr":  "उत्पन्नाचा दाखला"
+                                             },
+                                   "validity_days":  null,
+                                   "required_fields":  null
+                               },
+                               {
+                                   "type":  "caste_certificate",
+                                   "label":  {
+                                                 "en":  "Caste or EWS certificate",
+                                                 "hi":  "जाति या EWS प्रमाण पत्र",
+                                                 "mr":  "जातीचा किंवा EWS दाखला"
+                                             },
+                                   "validity_days":  null,
+                                   "required_fields":  null
+                               },
+                               {
+                                   "type":  "ration_card",
+                                   "label":  {
+                                                 "en":  "Ration card (address proof)",
+                                                 "hi":  "राशन कार्ड (पते का प्रमाण)",
+                                                 "mr":  "रेशन कार्ड (पत्त्याचा पुरावा)"
+                                             },
+                                   "validity_days":  null,
+                                   "required_fields":  null
+                               },
+                               {
+                                   "type":  "marksheet",
+                                   "label":  {
+                                                 "en":  "Last qualifying marksheet",
+                                                 "hi":  "पिछली योग्यता परीक्षा की अंकतालिका",
+                                                 "mr":  "शेवटच्या पात्रता परीक्षेचे गुणपत्रक"
+                                             },
+                                   "validity_days":  null,
+                                   "required_fields":  null
+                               }
+                           ],
+    "rights":  [
+                   {
+                       "title":  {
+                                     "en":  "Right to fee refund within the deadline",
+                                     "hi":  "निर्धारित समय में शुल्क वापसी का अधिकार",
+                                     "mr":  "निर्धारित मुदतीत शुल्क परताव्याचा अधिकार"
+                                 },
+                       "detail":  {
+                                      "en":  "Eligible students must receive the reimbursed fee for the academic year; delayed colleges can be reported to the helpdesk.",
+                                      "hi":  "पात्र विद्यार्थियों को शैक्षणिक वर्ष का प्रतिपूर्ति शुल्क मिलना चाहिए; देरी होने पर हेल्पडेस्क को रिपोर्ट करें।",
+                                      "mr":  "पात्र विद्यार्थ्यांना शैक्षणिक वर्षाचे परतावा शुल्क मिळाले पाहिजे; उशीर झाल्यास हेल्पडेस्ककडे तक्रार करा."
+                                  }
+                   },
+                   {
+                       "title":  {
+                                     "en":  "Right to appeal a rejection",
+                                     "hi":  "अस्वीकृति के विरुद्ध अपील का अधिकार",
+                                     "mr":  "नकाराविरुद्ध अपीलाचा अधिकार"
+                                 },
+                       "detail":  {
+                                      "en":  "You can file an appeal with the district scholarship committee within 30 days of a rejection, quoting your application number.",
+                                      "hi":  "अस्वीकृति के 30 दिनों के भीतर आवेदन संख्या उद्धृत करते हुए जिला छात्रवृत्ति समिति में अपील की जा सकती है।",
+                                      "mr":  "नकारानंतर 30 दिवसांच्या आत अर्ज क्रमांक नमूद करून जिल्हा शिष्यवृत्ती समितीकडे अपील करता येते."
+                                  }
+                   }
+               ],
+    "grievance_contact":  {
+                              "name":  "Maharashtra Scholarship Helpdesk",
+                              "phone":  "022-49150800",
+                              "email":  "helpdesk@mahadbt.gov.in",
+                              "address":  "Higher and Technical Education Department, Mantralaya, Mumbai 400032"
+                          },
+    "source_url":  "https://mahadbt.maharashtra.gov.in/",
+    "apply_url":  "/mock-portal/login",
+    "tags":  [
+                 "state",
+                 "maharashtra",
+                 "fee-reimbursement",
+                 "obc",
+                 "ews"
+             ],
+    "deadline_timezone":  "Asia/Kolkata"
+}

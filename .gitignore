@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node
+node_modules/
+dist/
+.vite/
+*.tsbuildinfo
+
+# Runtime data
+backend/data/*.db
+backend/data/*.db-*
+backend/data/documents/
+backend/data/receipts/
+backend/data/screenshots/
+backend/data/tmp/
+backend/data/*.log
+.backend.pid
+frontend/.vite.pid
+frontend/vite.out.log
+frontend/vite.err.log
+test-results/
+playwright-report/
+
+# Environment and editor files
+.env
+.env.local
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Sample generation intermediates
+samples/.tmp/
+
+# Local portable runtime used to bootstrap the backend venv
+tools/python311/

@@ -1,0 +1,173 @@
+{
+  "id": "northsouth-foundation",
+  "name": {
+    "en": "NorthSouth Foundation College Merit Scholarship",
+    "hi": "नॉर्थसाउथ फ़ाउंडेशन कॉलेज मेरिट छात्रवृत्ति",
+    "mr": "नॉर्थसाउथ फाउंडेशन महाविद्यालय गुणवत्ता शिष्यवृत्ती"
+  },
+  "short_name": {
+    "en": "NorthSouth NSF",
+    "hi": "नॉर्थसाउथ NSF",
+    "mr": "नॉर्थसाउथ NSF"
+  },
+  "authority": {
+    "en": "NorthSouth Foundation",
+    "hi": "नॉर्थसाउथ फ़ाउंडेशन",
+    "mr": "नॉर्थसाउथ फाउंडेशन"
+  },
+  "description": {
+    "en": "Merit-cum-means scholarship for students in engineering, medicine, agriculture, nursing, pharmacy and diploma courses, with family income up to ₹2.5 lakh.",
+    "hi": "इंजीनियरिंग, मेडिकल, कृषि, नर्सिंग, फ़ार्मेसी और डिप्लोमा विद्यार्थियों के लिए मेरिट-कम-मीन्स सहायता, पारिवारिक आय ₹2.5 लाख तक।",
+    "mr": "अभियांत्रिकी, वैद्यकीय, कृषी, नर्सिंग, फार्मसी आणि डिप्लोमा विद्यार्थ्यांसाठी गुणवत्ता-सह-साधन सहाय्य, कौटुंबिक उत्पन्न ₹2.5 लाखापर्यंत."
+  },
+  "benefit_amount_per_year": 25000,
+  "deadline": "2027-06-30",
+  "rules": [
+    {
+      "field": "annual_family_income",
+      "operator": "lte",
+      "label": {
+        "en": "Annual family income is ₹2,50,000 or less",
+        "hi": "वार्षिक पारिवारिक आय ₹2,50,000 या उससे कम है",
+        "mr": "वार्षिक कौटुंबिक उत्पन्न ₹2,50,000 किंवा त्यापेक्षा कमी आहे"
+      },
+      "weight": 1,
+      "mandatory": false,
+      "value": 250000
+    },
+    {
+      "field": "last_exam_percentage",
+      "operator": "gte",
+      "label": {
+        "en": "Scored 60% or more in the last qualifying examination",
+        "hi": "पिछली योग्यता परीक्षा में 60% या अधिक अंक प्राप्त किए",
+        "mr": "शेवटच्या पात्रता परीक्षेत 60% किंवा अधिक गुण मिळवले"
+      },
+      "weight": 1,
+      "mandatory": false,
+      "value": 60
+    },
+    {
+      "field": "education_level",
+      "operator": "in",
+      "label": {
+        "en": "Applicant is enrolled in an undergraduate degree or diploma course",
+        "hi": "आवेदक स्नातक डिग्री या डिप्लोमा कोर्स में नामांकित है",
+        "mr": "अर्जदार पदवी किंवा डिप्लोमा अभ्यासक्रमात प्रवेशित आहे"
+      },
+      "weight": 1,
+      "mandatory": false,
+      "value": [
+        "undergraduate",
+        "diploma"
+      ]
+    },
+    {
+      "field": "course",
+      "operator": "contains_any",
+      "label": {
+        "en": "Course is in engineering, medicine, agriculture, nursing, pharmacy or a diploma programme",
+        "hi": "कोर्स इंजीनियरिंग, मेडिकल, कृषि, नर्सिंग, फ़ार्मेसी या डिप्लोमा कार्यक्रम में है",
+        "mr": "अभ्यासक्रम अभियांत्रिकी, वैद्यकीय, कृषी, नर्सिंग, फार्मसी किंवा डिप्लोमा कार्यक्रमात आहे"
+      },
+      "weight": 1,
+      "mandatory": false,
+      "value": [
+        "engineering",
+        "b.tech",
+        "b.e.",
+        "b.e",
+        "medicine",
+        "mbbs",
+        "nursing",
+        "agriculture",
+        "pharmacy",
+        "b.pharm",
+        "diploma"
+      ]
+    }
+  ],
+  "required_documents": [
+    {
+      "type": "income_certificate",
+      "label": {
+        "en": "Income certificate",
+        "hi": "आय प्रमाण पत्र",
+        "mr": "उत्पन्नाचा दाखला"
+      },
+      "validity_days": null,
+      "required_fields": []
+    },
+    {
+      "type": "marksheet",
+      "label": {
+        "en": "Last qualifying marksheet",
+        "hi": "पिछली योग्यता परीक्षा की अंकतालिका",
+        "mr": "शेवटच्या पात्रता परीक्षेचे गुणपत्रक"
+      },
+      "validity_days": null,
+      "required_fields": []
+    },
+    {
+      "type": "admission_letter",
+      "label": {
+        "en": "Admission or bonafide certificate",
+        "hi": "प्रवेश या बोनाफाइड प्रमाण पत्र",
+        "mr": "प्रवेश किंवा बोनाफाइड दाखला"
+      },
+      "validity_days": null,
+      "required_fields": []
+    },
+    {
+      "type": "bank_passbook",
+      "label": {
+        "en": "Bank passbook (student's own account)",
+        "hi": "बैंक पासबुक (विद्यार्थी के अपने खाते का)",
+        "mr": "बँक पासबुक (विद्यार्थ्याच्या स्वतःच्या खात्याचे)"
+      },
+      "validity_days": null,
+      "required_fields": []
+    }
+  ],
+  "rights": [
+    {
+      "title": {
+        "en": "Right to a written decision",
+        "hi": "लेखी निर्णय का अधिकार",
+        "mr": "लेखी निर्णयाचा अधिकार"
+      },
+      "detail": {
+        "en": "The department or foundation must record a reason if your application is rejected, and you may ask for a copy.",
+        "hi": "आवेदन अस्वीकार होने पर विभाग या फ़ाउंडेशन को कारण दर्ज करना होगा और आप उसकी प्रति मांग सकते हैं।",
+        "mr": "अर्ज नाकारल्यास विभाग किंवा फाउंडेशनने कारण नोंदवणे आवश्यक आहे आणि तुम्ही त्याची प्रत मागू शकता."
+      }
+    },
+    {
+      "title": {
+        "en": "Right to grievance redressal",
+        "hi": "शिकायत निवारण का अधिकार",
+        "mr": "तक्रार निवारणाचा अधिकार"
+      },
+      "detail": {
+        "en": "If the scholarship is delayed beyond 60 days, you can escalate using the grievance contact shown below.",
+        "hi": "छात्रवृत्ति 60 दिनों से अधिक देर होने पर आप नीचे दिए संपर्क का उपयोग कर शिकायत दर्ज कर सकते हैं।",
+        "mr": "शिष्यवृत्ती 60 दिवसांपेक्षा जास्त उशिरा आल्यास खालील संपर्क वापरून तुम्ही तक्रार नोंदवू शकता."
+      }
+    }
+  ],
+  "grievance_contact": {
+    "name": "NorthSouth Foundation Scholarship Support",
+    "phone": "+1-630-323-1966",
+    "email": "support@northsouth.org",
+    "address": "NorthSouth Foundation, 2 Marissa Ct, Burr Ridge, IL 60527, USA"
+  },
+  "source_url": "https://northsouth.org/india-impact/india-scholarships",
+  "apply_url": "/mock-portal/login",
+  "tags": [
+    "csr",
+    "foundation",
+    "merit-cum-means",
+    "professional"
+  ],
+  "deadline_timezone": "Asia/Kolkata"
+}

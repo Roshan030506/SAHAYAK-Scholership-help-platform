@@ -1,0 +1,143 @@
+{
+  "id": "central-sector-scholarship",
+  "name": {
+    "en": "PM-USP Central Sector Scholarship (CSSS)",
+    "hi": "पीएम-यूएसपी केंद्रीय क्षेत्र छात्रवृत्ति (CSSS)",
+    "mr": "पीएम-यूएसपी केंद्रीय क्षेत्र शिष्यवृत्ती (CSSS)"
+  },
+  "short_name": {
+    "en": "PM-USP CSSS",
+    "hi": "पीएम-यूएसपी CSSS",
+    "mr": "पीएम-यूएसपी CSSS"
+  },
+  "authority": {
+    "en": "Ministry of Education, Government of India",
+    "hi": "शिक्षा मंत्रालय, भारत सरकार",
+    "mr": "शिक्षण मंत्रालय, भारत सरकार"
+  },
+  "description": {
+    "en": "Pradhan Mantri Uchchatar Shiksha Protsahan (PM-USP) Central Sector Scheme of Scholarship for College and University Students: merit-cum-means support for high-scoring class 12 students from low-income families pursuing an undergraduate degree.",
+    "hi": "प्रधानमंत्री उच्चतर शिक्षा प्रोत्साहन (पीएम-यूएसपी) केंद्रीय क्षेत्र छात्रवृत्ति योजना: कम आय वाले परिवारों के कक्षा 12 में अच्छे अंक पाने वाले विद्यार्थियों को स्नातक पढ़ाई हेतु मेरिट-कम-मीन्स सहायता।",
+    "mr": "प्रधानमंत्री उच्चतर शिक्षा प्रोत्साहन (पीएम-यूएसपी) केंद्रीय क्षेत्र शिष्यवृत्ती योजना: कमी उत्पन्न असलेल्या कुटुंबांतील इयत्ता 12 वीत उच्च गुण मिळवणाऱ्या विद्यार्थ्यांना पदवी शिक्षणासाठी गुणवत्ता-सह-साधन सहाय्य."
+  },
+  "benefit_amount_per_year": 24000,
+  "deadline": "2026-11-30",
+  "rules": [
+    {
+      "field": "last_exam_percentage",
+      "operator": "gte",
+      "value": 80,
+      "label": {
+        "en": "Scored 80% or more in the class 12 examination",
+        "hi": "कक्षा 12 की परीक्षा में 80% या अधिक अंक प्राप्त किए",
+        "mr": "इयत्ता 12 वी परीक्षेत 80% किंवा अधिक गुण मिळवले"
+      },
+      "weight": 1,
+      "mandatory": false
+    },
+    {
+      "field": "annual_family_income",
+      "operator": "lte",
+      "value": 450000,
+      "label": {
+        "en": "Annual family income is ₹4,50,000 or less",
+        "hi": "वार्षिक पारिवारिक आय ₹4,50,000 या उससे कम है",
+        "mr": "वार्षिक कौटुंबिक उत्पन्न ₹4,50,000 किंवा त्यापेक्षा कमी आहे"
+      },
+      "weight": 1,
+      "mandatory": false
+    },
+    {
+      "field": "education_level",
+      "operator": "eq",
+      "value": "undergraduate",
+      "label": {
+        "en": "Applicant is enrolled in an undergraduate degree course",
+        "hi": "आवेदक स्नातक डिग्री कोर्स में नामांकित है",
+        "mr": "अर्जदार पदवी अभ्यासक्रमात प्रवेशित आहे"
+      },
+      "weight": 1,
+      "mandatory": false
+    },
+    {
+      "field": "age",
+      "operator": "between",
+      "value": [
+        17,
+        25
+      ],
+      "label": {
+        "en": "Applicant is between 17 and 25 years old",
+        "hi": "आवेदक की उम्र 17 से 25 वर्ष के बीच है",
+        "mr": "अर्जदाराचे वय 17 ते 25 वर्षांच्या दरम्यान आहे"
+      },
+      "weight": 1,
+      "mandatory": false
+    }
+  ],
+  "required_documents": [
+    {
+      "type": "marksheet",
+      "label": {
+        "en": "Class 12 marksheet",
+        "hi": "कक्षा 12 की अंकतालिका",
+        "mr": "इयत्ता 12 वीचे गुणपत्रक"
+      },
+      "validity_days": null,
+      "required_fields": null
+    },
+    {
+      "type": "income_certificate",
+      "label": {
+        "en": "Income certificate",
+        "hi": "आय प्रमाण पत्र",
+        "mr": "उत्पन्नाचा दाखला"
+      },
+      "validity_days": null,
+      "required_fields": null
+    }
+  ],
+  "rights": [
+    {
+      "title": {
+        "en": "Right to transparent selection",
+        "hi": "पारदर्शी चयन का अधिकार",
+        "mr": "पारदर्शक निवडीचा अधिकार"
+      },
+      "detail": {
+        "en": "Selection is based on published marks and income cut-offs. You can ask the portal for the reason your rank was not included.",
+        "hi": "चयन प्रकाशित अंक और आय सीमा पर आधारित है। पोर्टल से अपने रैंक शामिल न होने का कारण पूछ सकते हैं।",
+        "mr": "निवड प्रकाशित गुण आणि उत्पन्न मर्यादेवर आधारित आहे. तुमचा क्रमांक का समाविष्ट नाही हे पोर्टलकडे विचारू शकता."
+      }
+    },
+    {
+      "title": {
+        "en": "Right to direct benefit transfer",
+        "hi": "सीधे लाभ हस्तांतरण का अधिकार",
+        "mr": "थेट लाभ हस्तांतरणाचा अधिकार"
+      },
+      "detail": {
+        "en": "Approved scholarship amounts must be paid directly into the student's own bank account.",
+        "hi": "स्वीकृत छात्रवृत्ति राशि विद्यार्थी के अपने बैंक खाते में सीधे जमा की जानी चाहिए।",
+        "mr": "मंजूर शिष्यवृत्तीची रक्कम विद्यार्थ्याच्या स्वतःच्या बँक खात्यात थेट जमा होणे आवश्यक आहे."
+      }
+    }
+  ],
+  "grievance_contact": {
+    "name": "National Scholarship Portal Helpdesk",
+    "phone": "0120-6619540",
+    "email": "helpdesk@scholarships.gov.in",
+    "address": "Ministry of Education, Shastri Bhawan, New Delhi 110001"
+  },
+  "source_url": "https://scholarships.gov.in/",
+  "apply_url": "/mock-portal/login",
+  "tags": [
+    "central",
+    "merit",
+    "nsp",
+    "pm-usp",
+    "scholarship",
+    "undergraduate"
+  ],
+  "deadline_timezone": "Asia/Kolkata"
+}

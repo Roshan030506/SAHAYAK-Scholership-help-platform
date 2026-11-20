@@ -1,0 +1,145 @@
+{
+  "id": "hdfc-parivartan",
+  "name": {
+    "en": "HDFC Bank Parivartan ECSS Scholarship",
+    "hi": "HDFC बैंक पारिवर्तन ECSS छात्रवृत्ति",
+    "mr": "HDFC बँक परिवर्तन ECSS शिष्यवृत्ती"
+  },
+  "short_name": {
+    "en": "HDFC Parivartan",
+    "hi": "HDFC पारिवर्तन",
+    "mr": "HDFC परिवर्तन"
+  },
+  "authority": {
+    "en": "HDFC Bank Parivartan",
+    "hi": "HDFC बैंक पारिवर्तन",
+    "mr": "HDFC बँक परिवर्तन"
+  },
+  "description": {
+    "en": "Merit-cum-means scholarship of up to ₹75,000 for students from low-income families, from school through postgraduate study.",
+    "hi": "कम आय वाले परिवारों के मेधावी विद्यार्थियों के लिए स्कूल से स्नातकोत्तर तक ₹75,000 तक की मेरिट-कम-मीन्स सहायता।",
+    "mr": "कमी उत्पन्न असलेल्या कुटुंबांतील गुणवंत विद्यार्थ्यांसाठी शाळेपासून पदव्युत्तरपर्यंत ₹75,000 पर्यंत गुणवत्ता-सह-साधन सहाय्य."
+  },
+  "benefit_amount_per_year": 75000,
+  "deadline": "2027-08-31",
+  "rules": [
+    {
+      "field": "annual_family_income",
+      "operator": "lte",
+      "label": {
+        "en": "Annual family income is ₹6,00,000 or less",
+        "hi": "वार्षिक पारिवारिक आय ₹6,00,000 या उससे कम है",
+        "mr": "वार्षिक कौटुंबिक उत्पन्न ₹6,00,000 किंवा त्यापेक्षा कमी आहे"
+      },
+      "weight": 1,
+      "mandatory": false,
+      "value": 600000
+    },
+    {
+      "field": "last_exam_percentage",
+      "operator": "gte",
+      "label": {
+        "en": "Scored 55% or more in the last qualifying examination",
+        "hi": "पिछली योग्यता परीक्षा में 55% या अधिक अंक प्राप्त किए",
+        "mr": "शेवटच्या पात्रता परीक्षेत 55% किंवा अधिक गुण मिळवले"
+      },
+      "weight": 1,
+      "mandatory": false,
+      "value": 55
+    },
+    {
+      "field": "education_level",
+      "operator": "exists",
+      "label": {
+        "en": "Applicant is currently enrolled in an education programme",
+        "hi": "आवेदक वर्तमान में किसी शिक्षा कार्यक्रम में नामांकित है",
+        "mr": "अर्जदार सध्या कोणत्याही शिक्षण कार्यक्रमात प्रवेशित आहे"
+      },
+      "weight": 1,
+      "mandatory": false
+    }
+  ],
+  "required_documents": [
+    {
+      "type": "income_certificate",
+      "label": {
+        "en": "Income certificate",
+        "hi": "आय प्रमाण पत्र",
+        "mr": "उत्पन्नाचा दाखला"
+      },
+      "validity_days": null,
+      "required_fields": []
+    },
+    {
+      "type": "marksheet",
+      "label": {
+        "en": "Last qualifying marksheet",
+        "hi": "पिछली योग्यता परीक्षा की अंकतालिका",
+        "mr": "शेवटच्या पात्रता परीक्षेचे गुणपत्रक"
+      },
+      "validity_days": null,
+      "required_fields": []
+    },
+    {
+      "type": "bank_passbook",
+      "label": {
+        "en": "Bank passbook (student's own account)",
+        "hi": "बैंक पासबुक (विद्यार्थी के अपने खाते का)",
+        "mr": "बँक पासबुक (विद्यार्थ्याच्या स्वतःच्या खात्याचे)"
+      },
+      "validity_days": null,
+      "required_fields": []
+    },
+    {
+      "type": "admission_letter",
+      "label": {
+        "en": "Admission or bonafide certificate",
+        "hi": "प्रवेश या बोनाफाइड प्रमाण पत्र",
+        "mr": "प्रवेश किंवा बोनाफाइड दाखला"
+      },
+      "validity_days": null,
+      "required_fields": []
+    }
+  ],
+  "rights": [
+    {
+      "title": {
+        "en": "Right to a written decision",
+        "hi": "लेखी निर्णय का अधिकार",
+        "mr": "लेखी निर्णयाचा अधिकार"
+      },
+      "detail": {
+        "en": "The department or foundation must record a reason if your application is rejected, and you may ask for a copy.",
+        "hi": "आवेदन अस्वीकार होने पर विभाग या फ़ाउंडेशन को कारण दर्ज करना होगा और आप उसकी प्रति मांग सकते हैं।",
+        "mr": "अर्ज नाकारल्यास विभाग किंवा फाउंडेशनने कारण नोंदवणे आवश्यक आहे आणि तुम्ही त्याची प्रत मागू शकता."
+      }
+    },
+    {
+      "title": {
+        "en": "Right to grievance redressal",
+        "hi": "शिकायत निवारण का अधिकार",
+        "mr": "तक्रार निवारणाचा अधिकार"
+      },
+      "detail": {
+        "en": "If the scholarship is delayed beyond 60 days, you can escalate using the grievance contact shown below.",
+        "hi": "छात्रवृत्ति 60 दिनों से अधिक देर होने पर आप नीचे दिए संपर्क का उपयोग कर शिकायत दर्ज कर सकते हैं।",
+        "mr": "शिष्यवृत्ती 60 दिवसांपेक्षा जास्त उशिरा आल्यास खालील संपर्क वापरून तुम्ही तक्रार नोंदवू शकता."
+      }
+    }
+  ],
+  "grievance_contact": {
+    "name": "Buddy4Study Scholarship Support",
+    "phone": "011-43092248",
+    "email": "support@buddy4study.com",
+    "address": "Buddy4Study, Gurugram, Haryana"
+  },
+  "source_url": "https://www.buddy4study.com/page/hdfc-bank-parivartans-ecss-programme",
+  "apply_url": "/mock-portal/login",
+  "tags": [
+    "csr",
+    "buddy4study",
+    "hdfc",
+    "merit-cum-means"
+  ],
+  "deadline_timezone": "Asia/Kolkata"
+}

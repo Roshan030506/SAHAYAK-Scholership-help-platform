@@ -1,0 +1,187 @@
+{
+  "id": "maharashtra-obc-post-matric",
+  "name": {
+    "en": "Post-Matric Scholarship for OBC Students (Maharashtra)",
+    "hi": "OBC विद्यार्थियों के लिए पोस्ट-मैट्रिक छात्रवृत्ति (महाराष्ट्र)",
+    "mr": "OBC विद्यार्थ्यांसाठी पोस्ट-मॅट्रिक शिष्यवृत्ती (महाराष्ट्र)"
+  },
+  "short_name": {
+    "en": "Maha OBC Post-Matric",
+    "hi": "महा OBC पोस्ट-मैट्रिक",
+    "mr": "महा OBC पोस्ट-मॅट्रिक"
+  },
+  "authority": {
+    "en": "OBC, SEBC, VJNT and SBC Welfare Department, Government of Maharashtra",
+    "hi": "OBC, SEBC, VJNT और SBC कल्याण विभाग, महाराष्ट्र सरकार",
+    "mr": "OBC, SEBC, VJNT व SBC कल्याण विभाग, महाराष्ट्र शासन"
+  },
+  "description": {
+    "en": "Maintenance allowance and fee support for OBC students in Maharashtra after class 10, with family income up to ₹2.5 lakh.",
+    "hi": "महाराष्ट्र के OBC विद्यार्थियों के लिए कक्षा 10 के बाद रख-रखाव भत्ता और शुल्क सहायता, पारिवारिक आय ₹2.5 लाख तक।",
+    "mr": "महाराष्ट्रातील OBC विद्यार्थ्यांसाठी इयत्ता 10 वीनंतर निर्वाह भत्ता आणि शुल्क सहाय्य, कौटुंबिक उत्पन्न ₹2.5 लाखापर्यंत."
+  },
+  "benefit_amount_per_year": 30000,
+  "deadline": "2027-01-31",
+  "rules": [
+    {
+      "field": "state",
+      "operator": "eq",
+      "label": {
+        "en": "Applicant is a domiciled resident of Maharashtra",
+        "hi": "आवेदक महाराष्ट्र का स्थायी निवासी है",
+        "mr": "अर्जदार महाराष्ट्राचा रहिवासी आहे"
+      },
+      "weight": 1,
+      "mandatory": false,
+      "value": "Maharashtra"
+    },
+    {
+      "field": "category",
+      "operator": "eq",
+      "label": {
+        "en": "Applicant belongs to an Other Backward Class (OBC) community",
+        "hi": "आवेदक अन्य पिछड़ा वर्ग (OBC) समुदाय से है",
+        "mr": "अर्जदार इतर मागासवर्गीय (OBC) समुदायाचा आहे"
+      },
+      "weight": 1,
+      "mandatory": false,
+      "value": "OBC"
+    },
+    {
+      "field": "annual_family_income",
+      "operator": "lte",
+      "label": {
+        "en": "Annual family income is ₹2,50,000 or less",
+        "hi": "वार्षिक पारिवारिक आय ₹2,50,000 या उससे कम है",
+        "mr": "वार्षिक कौटुंबिक उत्पन्न ₹2,50,000 किंवा त्यापेक्षा कमी आहे"
+      },
+      "weight": 1,
+      "mandatory": false,
+      "value": 250000
+    },
+    {
+      "field": "education_level",
+      "operator": "in",
+      "label": {
+        "en": "Applicant is studying in class 11 or above (a post-matric course)",
+        "hi": "आवेदक कक्षा 11 या उससे ऊपर (पोस्ट-मैट्रिक कोर्स) में पढ़ रहा है",
+        "mr": "अर्जदार इयत्ता 11 वी किंवा त्यापुढील (पोस्ट-मॅट्रिक अभ्यासक्रम) शिकत आहे"
+      },
+      "weight": 1,
+      "mandatory": false,
+      "value": [
+        "class_11",
+        "class_12",
+        "undergraduate",
+        "postgraduate",
+        "diploma",
+        "iti"
+      ]
+    },
+    {
+      "field": "institution_type",
+      "operator": "exists",
+      "label": {
+        "en": "Applicant is enrolled in a recognised educational institution",
+        "hi": "आवेदक मान्यता प्राप्त शिक्षण संस्थान में नामांकित है",
+        "mr": "अर्जदार मान्यताप्राप्त शैक्षणिक संस्थेत प्रवेशित आहे"
+      },
+      "weight": 1,
+      "mandatory": false
+    }
+  ],
+  "required_documents": [
+    {
+      "type": "caste_certificate",
+      "label": {
+        "en": "Caste certificate",
+        "hi": "जाति प्रमाण पत्र",
+        "mr": "जातीचा दाखला"
+      },
+      "validity_days": null,
+      "required_fields": []
+    },
+    {
+      "type": "income_certificate",
+      "label": {
+        "en": "Income certificate",
+        "hi": "आय प्रमाण पत्र",
+        "mr": "उत्पन्नाचा दाखला"
+      },
+      "validity_days": null,
+      "required_fields": []
+    },
+    {
+      "type": "marksheet",
+      "label": {
+        "en": "Last qualifying marksheet",
+        "hi": "पिछली योग्यता परीक्षा की अंकतालिका",
+        "mr": "शेवटच्या पात्रता परीक्षेचे गुणपत्रक"
+      },
+      "validity_days": null,
+      "required_fields": []
+    },
+    {
+      "type": "domicile_certificate",
+      "label": {
+        "en": "Domicile certificate",
+        "hi": "अधिवास प्रमाण पत्र",
+        "mr": "अधिवास दाखला"
+      },
+      "validity_days": null,
+      "required_fields": []
+    },
+    {
+      "type": "bank_passbook",
+      "label": {
+        "en": "Bank passbook (student's own account)",
+        "hi": "बैंक पासबुक (विद्यार्थी के अपने खाते का)",
+        "mr": "बँक पासबुक (विद्यार्थ्याच्या स्वतःच्या खात्याचे)"
+      },
+      "validity_days": null,
+      "required_fields": []
+    }
+  ],
+  "rights": [
+    {
+      "title": {
+        "en": "Right to a written decision",
+        "hi": "लेखी निर्णय का अधिकार",
+        "mr": "लेखी निर्णयाचा अधिकार"
+      },
+      "detail": {
+        "en": "The department or foundation must record a reason if your application is rejected, and you may ask for a copy.",
+        "hi": "आवेदन अस्वीकार होने पर विभाग या फ़ाउंडेशन को कारण दर्ज करना होगा और आप उसकी प्रति मांग सकते हैं।",
+        "mr": "अर्ज नाकारल्यास विभाग किंवा फाउंडेशनने कारण नोंदवणे आवश्यक आहे आणि तुम्ही त्याची प्रत मागू शकता."
+      }
+    },
+    {
+      "title": {
+        "en": "Right to grievance redressal",
+        "hi": "शिकायत निवारण का अधिकार",
+        "mr": "तक्रार निवारणाचा अधिकार"
+      },
+      "detail": {
+        "en": "If the scholarship is delayed beyond 60 days, you can escalate using the grievance contact shown below.",
+        "hi": "छात्रवृत्ति 60 दिनों से अधिक देर होने पर आप नीचे दिए संपर्क का उपयोग कर शिकायत दर्ज कर सकते हैं।",
+        "mr": "शिष्यवृत्ती 60 दिवसांपेक्षा जास्त उशिरा आल्यास खालील संपर्क वापरून तुम्ही तक्रार नोंदवू शकता."
+      }
+    }
+  ],
+  "grievance_contact": {
+    "name": "MahaDBT Student Helpdesk",
+    "phone": "022-49150800",
+    "email": "mahadbt.helpdesk@maharashtra.gov.in",
+    "address": "MahaDBT, Government of Maharashtra, Mumbai 400032"
+  },
+  "source_url": "https://mahadbt.maharashtra.gov.in/",
+  "apply_url": "/mock-portal/login",
+  "tags": [
+    "state",
+    "mahadbt",
+    "maharashtra",
+    "obc",
+    "post-matric"
+  ],
+  "deadline_timezone": "Asia/Kolkata"
+}

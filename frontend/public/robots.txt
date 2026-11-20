@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Sahayak is a local demo; keep crawlers out of API and session paths.
+Disallow: /api/

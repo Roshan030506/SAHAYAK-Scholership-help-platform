@@ -1,0 +1,187 @@
+{
+  "id": "aicte-pragati",
+  "name": {
+    "en": "AICTE Pragati Scholarship for Girls",
+    "hi": "छात्राओं के लिए AICTE प्रगति छात्रवृत्ति",
+    "mr": "विद्यार्थिनींसाठी AICTE प्रगती शिष्यवृत्ती"
+  },
+  "short_name": {
+    "en": "AICTE Pragati",
+    "hi": "AICTE प्रगति",
+    "mr": "AICTE प्रगती"
+  },
+  "authority": {
+    "en": "All India Council for Technical Education (AICTE), Government of India",
+    "hi": "अखिल भारतीय तकनीकी शिक्षा परिषद (AICTE), भारत सरकार",
+    "mr": "अखिल भारतीय तंत्रशिक्षण परिषद (AICTE), भारत सरकार"
+  },
+  "description": {
+    "en": "₹50,000 per year for girl students in AICTE-approved technical degree or diploma courses, with family income up to ₹8 lakh.",
+    "hi": "AICTE-अनुमोदित तकनीकी डिग्री या डिप्लोमा कोर्स में पढ़ने वाली छात्राओं के लिए ₹50,000 प्रति वर्ष, पारिवारिक आय ₹8 लाख तक।",
+    "mr": "AICTE-मान्यताप्राप्त तंत्रशिक्षण पदवी किंवा डिप्लोमा अभ्यासक्रमात शिकणाऱ्या विद्यार्थिनींसाठी दरवर्षी ₹50,000, कौटुंबिक उत्पन्न ₹8 लाखापर्यंत."
+  },
+  "benefit_amount_per_year": 50000,
+  "deadline": "2026-11-30",
+  "rules": [
+    {
+      "field": "gender",
+      "operator": "eq",
+      "label": {
+        "en": "Applicant is a girl student",
+        "hi": "आवेदक छात्रा है",
+        "mr": "अर्जदार विद्यार्थिनी आहे"
+      },
+      "weight": 1,
+      "mandatory": false,
+      "value": "female"
+    },
+    {
+      "field": "annual_family_income",
+      "operator": "lte",
+      "label": {
+        "en": "Annual family income is ₹8,00,000 or less",
+        "hi": "वार्षिक पारिवारिक आय ₹8,00,000 या उससे कम है",
+        "mr": "वार्षिक कौटुंबिक उत्पन्न ₹8,00,000 किंवा त्यापेक्षा कमी आहे"
+      },
+      "weight": 1,
+      "mandatory": false,
+      "value": 800000
+    },
+    {
+      "field": "education_level",
+      "operator": "in",
+      "label": {
+        "en": "Applicant is enrolled in a technical degree or diploma course",
+        "hi": "आवेदक तकनीकी डिग्री या डिप्लोमा कोर्स में नामांकित है",
+        "mr": "अर्जदार तंत्रशिक्षण पदवी किंवा डिप्लोमा अभ्यासक्रमात प्रवेशित आहे"
+      },
+      "weight": 1,
+      "mandatory": false,
+      "value": [
+        "undergraduate",
+        "diploma"
+      ]
+    },
+    {
+      "field": "course",
+      "operator": "contains_any",
+      "label": {
+        "en": "Course is in an AICTE-approved technical programme (engineering, technology or polytechnic)",
+        "hi": "कोर्स AICTE-अनुमोदित तकनीकी कार्यक्रम (इंजीनियरिंग, प्रौद्योगिकी या पॉलिटेक्निक) में है",
+        "mr": "अभ्यासक्रम AICTE-मान्यताप्राप्त तंत्रशिक्षण कार्यक्रमात (अभियांत्रिकी, तंत्रज्ञान किंवा पॉलिटेक्निक) आहे"
+      },
+      "weight": 1,
+      "mandatory": false,
+      "value": [
+        "engineering",
+        "technology",
+        "polytechnic",
+        "technical",
+        "b.tech",
+        "b.e.",
+        "b.e",
+        "computer science",
+        "electronics",
+        "mechanical",
+        "civil",
+        "electrical",
+        "information technology"
+      ]
+    },
+    {
+      "field": "institution_type",
+      "operator": "exists",
+      "label": {
+        "en": "Applicant is enrolled in a recognised technical institution",
+        "hi": "आवेदक मान्यता प्राप्त तकनीकी संस्थान में नामांकित है",
+        "mr": "अर्जदार मान्यताप्राप्त तंत्रशिक्षण संस्थेत प्रवेशित आहे"
+      },
+      "weight": 1,
+      "mandatory": false
+    }
+  ],
+  "required_documents": [
+    {
+      "type": "income_certificate",
+      "label": {
+        "en": "Income certificate",
+        "hi": "आय प्रमाण पत्र",
+        "mr": "उत्पन्नाचा दाखला"
+      },
+      "validity_days": null,
+      "required_fields": []
+    },
+    {
+      "type": "class_12_marksheet",
+      "label": {
+        "en": "Class 12 marksheet",
+        "hi": "कक्षा 12 की अंकतालिका",
+        "mr": "इयत्ता 12 वीचे गुणपत्रक"
+      },
+      "validity_days": null,
+      "required_fields": []
+    },
+    {
+      "type": "admission_letter",
+      "label": {
+        "en": "Admission or bonafide certificate",
+        "hi": "प्रवेश या बोनाफाइड प्रमाण पत्र",
+        "mr": "प्रवेश किंवा बोनाफाइड दाखला"
+      },
+      "validity_days": null,
+      "required_fields": []
+    },
+    {
+      "type": "bank_passbook",
+      "label": {
+        "en": "Bank passbook (student's own account)",
+        "hi": "बैंक पासबुक (विद्यार्थी के अपने खाते का)",
+        "mr": "बँक पासबुक (विद्यार्थ्याच्या स्वतःच्या खात्याचे)"
+      },
+      "validity_days": null,
+      "required_fields": []
+    }
+  ],
+  "rights": [
+    {
+      "title": {
+        "en": "Right to a written decision",
+        "hi": "लेखी निर्णय का अधिकार",
+        "mr": "लेखी निर्णयाचा अधिकार"
+      },
+      "detail": {
+        "en": "The department or foundation must record a reason if your application is rejected, and you may ask for a copy.",
+        "hi": "आवेदन अस्वीकार होने पर विभाग या फ़ाउंडेशन को कारण दर्ज करना होगा और आप उसकी प्रति मांग सकते हैं।",
+        "mr": "अर्ज नाकारल्यास विभाग किंवा फाउंडेशनने कारण नोंदवणे आवश्यक आहे आणि तुम्ही त्याची प्रत मागू शकता."
+      }
+    },
+    {
+      "title": {
+        "en": "Right to grievance redressal",
+        "hi": "शिकायत निवारण का अधिकार",
+        "mr": "तक्रार निवारणाचा अधिकार"
+      },
+      "detail": {
+        "en": "If the scholarship is delayed beyond 60 days, you can escalate using the grievance contact shown below.",
+        "hi": "छात्रवृत्ति 60 दिनों से अधिक देर होने पर आप नीचे दिए संपर्क का उपयोग कर शिकायत दर्ज कर सकते हैं।",
+        "mr": "शिष्यवृत्ती 60 दिवसांपेक्षा जास्त उशिरा आल्यास खालील संपर्क वापरून तुम्ही तक्रार नोंदवू शकता."
+      }
+    }
+  ],
+  "grievance_contact": {
+    "name": "AICTE Pragati and Saksham Helpdesk",
+    "phone": "011-29581119",
+    "email": "pragatisaksham@aicte-india.org",
+    "address": "AICTE, Nelson Mandela Marg, Vasant Kunj, New Delhi 110070"
+  },
+  "source_url": "https://www.aicte-india.org/schemes/students-development-schemes/Pragati/General-Instructions",
+  "apply_url": "/mock-portal/login",
+  "tags": [
+    "central",
+    "nsp",
+    "aicte",
+    "girls",
+    "technical"
+  ],
+  "deadline_timezone": "Asia/Kolkata"
+}

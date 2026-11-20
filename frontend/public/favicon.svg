@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Sahayak">
+  <rect width="32" height="32" rx="8" fill="#F59E0B" />
+  <path d="M16 25V15.5" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round" />
+  <path d="M16 16c-4.8 0-7.5-2.6-7.5-7.2 4.9 0 7.5 2.7 7.5 7.2Z" fill="#ffffff" opacity="0.95" />
+  <path d="M16 13.4c0-4.4 2.7-7 7.4-7 0 4.5-2.7 7-7.4 7Z" fill="#ffffff" opacity="0.8" />
+</svg>

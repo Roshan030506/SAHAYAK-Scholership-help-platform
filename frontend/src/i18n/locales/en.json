@@ -1,0 +1,506 @@
+{
+  "brand": {
+    "name": "Sahayak",
+    "tagline": "Find what you deserve.",
+    "subtitle": "Scholarship copilot"
+  },
+  "nav": {
+    "home": "Home",
+    "profile": "Profile",
+    "results": "Matches",
+    "privacy": "Privacy"
+  },
+  "a11y": {
+    "skip": "Skip to content",
+    "openMenu": "Open navigation menu",
+    "closeMenu": "Close navigation menu",
+    "language": "Choose language",
+    "accessibility": "Accessibility settings",
+    "mainNav": "Main navigation",
+    "orb": "Voice assistant orb",
+    "confidence": "Extraction confidence {{value}} percent"
+  },
+  "language": {
+    "label": "Language",
+    "names": {
+      "en": "English",
+      "hi": "हिन्दी",
+      "mr": "मराठी"
+    }
+  },
+  "accessibility": {
+    "title": "Accessibility",
+    "highContrast": "High contrast",
+    "largeText": "Large text",
+    "reduceMotion": "Reduce motion",
+    "on": "On",
+    "off": "Off"
+  },
+  "actions": {
+    "save": "Save profile",
+    "saveAndMatch": "Save and see matches",
+    "saving": "Saving…",
+    "retry": "Try again",
+    "viewDetails": "View details",
+    "listen": "Read aloud",
+    "stop": "Stop",
+    "extract": "Extract details",
+    "extracting": "Reading your words…",
+    "useSample": "Try a sample profile",
+    "startOver": "Start over",
+    "dismiss": "Dismiss",
+    "delete": "Delete everything",
+    "cancel": "Cancel",
+    "close": "Close",
+    "back": "Back",
+    "open": "Open"
+  },
+  "status": {
+    "eligible": "Eligible",
+    "likely": "Likely eligible",
+    "not_eligible": "Not eligible"
+  },
+  "footer": {
+    "disclaimer": "Demo uses a mock portal and sample scheme data. Always verify on the official source.",
+    "madeWith": "Built for the IDEA//FORGE Civic Pulse track. Voice-first, consent-first, privacy-first.",
+    "privacy": "Privacy & data"
+  },
+  "toasts": {
+    "profileSaved": "Profile saved. Your matches are ready.",
+    "profileSaveFailed": "Could not save your profile. Please try again.",
+    "extractionFailed": "I could not read those details just now. You can type them below.",
+    "matchFailed": "Could not load your matches. Check the backend and try again.",
+    "schemesFailed": "Could not load the scheme garden.",
+    "deleteSuccess": "Your profile, documents and applications were deleted.",
+    "deleteFailed": "Could not delete your data. Please try again.",
+    "genericError": "Something went wrong. Please try again.",
+    "sessionError": "Could not start a private session. Is the backend running on port 8000?",
+    "voiceUnsupported": "Voice input is not available in this browser. You can type instead.",
+    "micDenied": "Microphone permission was denied. You can type instead.",
+    "speechUnsupported": "Read-aloud is not available in this browser.",
+    "demoReady": "Sample profile loaded. Here are the schemes it matches.",
+    "noSpeech": "I did not catch that. Try speaking again, a little closer to the microphone.",
+    "voiceError": "Voice input stopped unexpectedly. You can type instead."
+  },
+  "landing": {
+    "eyebrow": "A voice-first scholarship copilot",
+    "title": "Find what",
+    "titleAccent": "you deserve.",
+    "subtitle": "Tell Sahayak about yourself in your own language. Understand every eligibility rule, collect the right documents, and apply with your consent — without decoding a government portal alone.",
+    "ctaProfile": "Build my profile",
+    "ctaDemo": "Try sample profile",
+    "ctaVoice": "Or talk to Sahayak",
+    "ctaVoiceHint": "Voice in English, Hindi or Marathi",
+    "demoLoading": "Preparing your sample…",
+    "stats": {
+      "schemes": "Verified schemes",
+      "languages": "Languages",
+      "consent": "Consent before submit"
+    },
+    "how": {
+      "title": "From a sentence to a submitted application.",
+      "subtitle": "Three calm steps, each one yours to confirm.",
+      "step1": {
+        "title": "Speak naturally",
+        "description": "Say what you study, where you live and your family income. Sahayak turns it into a profile you can edit."
+      },
+      "step2": {
+        "title": "See your rights",
+        "description": "Every match comes with the exact rule that passed or failed, missing documents and a plain-language reason."
+      },
+      "step3": {
+        "title": "Apply with consent",
+        "description": "The application agent fills the form. It stops at review and never submits until you explicitly confirm."
+      },
+      "eyebrow": "Sahayak method"
+    },
+    "schemes": {
+      "title": "Schemes in the garden",
+      "subtitle": "Fourteen verified central, Maharashtra, tribal, AICTE and CSR scholarships, editable as JSON and checked by deterministic rules.",
+      "deadline": "Apply by {{date}}",
+      "benefit": "up to {{amount}} / year"
+    },
+    "scene": {
+      "aria": "Decorative 3D scheme garden with a floating voice orb and scholarship cards.",
+      "live": "Live 3D garden"
+    },
+    "trust": {
+      "title": "Built for trust, not guesses.",
+      "rules": "Eligibility is decided by published rules, never by an AI guess.",
+      "privacy": "No Aadhaar storage. Uploaded files expire after 24 hours.",
+      "audit": "Every agent action is recorded in a masked audit log."
+    },
+    "more": {
+      "badge": "More coming",
+      "title": "Your matched garden is personalised.",
+      "body": "Build a profile to see eligibility, missing documents, and the exact rule behind every result."
+    },
+    "portals": {
+      "eyebrow": "Official apply portals",
+      "title": "Check here. Apply on the official portal.",
+      "subtitle": "Sahayak explains eligibility from bundled rules. These government and CSR portals host the real application forms, OTR accounts and live deadlines.",
+      "note": "Each link opens an external website. Verify the scheme, deadline and documents there before applying.",
+      "visit": "Visit official portal",
+      "groups": {
+        "central": "Central government",
+        "state": "Maharashtra",
+        "discovery": "Scheme discovery",
+        "csr": "CSR and foundations"
+      }
+    }
+  },
+  "profile": {
+    "eyebrow": "Your profile",
+    "title": "Start with your own words.",
+    "subtitle": "Speak or type in English, Hindi or Marathi. I will propose the details, and you decide what to keep.",
+    "voice": {
+      "title": "Talk to Sahayak",
+      "hint": "Try: “I am 19, from Pune, studying in a government college. My family income is two lakh and I scored 82 percent.”",
+      "idle": "Ready when you are",
+      "listening": "Listening…",
+      "thinking": "Reading your words…",
+      "speaking": "Speaking…",
+      "start": "Speak",
+      "stop": "Stop listening",
+      "unsupported": "Voice input is not supported here. Type below instead.",
+      "transcriptPlaceholder": "Your words will appear here, or type your profile in a sentence.",
+      "readAloud": "Read status aloud",
+      "guide": "Help me say it",
+      "guidePrompt": "Say something like: I am 19 years old, I live in Pune, and I study in a government college. My family income is two lakh rupees and I scored 82 percent."
+    },
+    "extractedTitle": "Details I found",
+    "extractedHint": "Check each value. Amber fields had lower extraction confidence.",
+    "confidence": "{{value}}% confidence",
+    "lowConfidence": "Please check",
+    "form": {
+      "title": "Your details",
+      "subtitle": "Only what you save is used for matching. You can change everything.",
+      "completeness": "Profile completeness",
+      "missing": "Still missing: {{fields}}",
+      "saveFirst": "Add a few details to see meaningful matches.",
+      "notSet": "Not set",
+      "yes": "Yes",
+      "no": "No",
+      "unknown": "Prefer not to say / unknown",
+      "select": "Select",
+      "sampleNote": "Sample data uses a fictional student, Riya Patil.",
+      "allSet": "All details added. You can still change anything later."
+    },
+    "fields": {
+      "name": "Full name",
+      "age": "Age",
+      "gender": "Gender",
+      "state": "State",
+      "district": "District",
+      "category": "Category",
+      "annual_family_income": "Annual family income (₹)",
+      "education_level": "Current education",
+      "last_exam_percentage": "Last exam percentage",
+      "course": "Course",
+      "institution_type": "Institution type",
+      "disability_status": "Disability status",
+      "bank_account_present": "Bank account in your name"
+    },
+    "options": {
+      "gender": {
+        "female": "Female",
+        "male": "Male",
+        "other": "Other"
+      },
+      "education": {
+        "class_8": "Class 8",
+        "class_9": "Class 9",
+        "class_10": "Class 10",
+        "class_11": "Class 11",
+        "class_12": "Class 12",
+        "undergraduate": "Undergraduate",
+        "postgraduate": "Postgraduate",
+        "diploma": "Diploma",
+        "iti": "ITI"
+      },
+      "institution": {
+        "government": "Government",
+        "government_aided": "Government aided",
+        "private": "Private",
+        "municipal": "Municipal / local body",
+        "other": "Other"
+      }
+    },
+    "followUps": "A few things to add",
+    "extractedApplied": "These values are in the form. Review them and save when you are ready.",
+    "errors": {
+      "age": "Enter an age between 1 and 120.",
+      "income": "Enter a valid annual income in rupees.",
+      "percentage": "Enter a percentage between 0 and 100."
+    }
+  },
+  "results": {
+    "eyebrow": "Your matches",
+    "title": "A garden of possibilities.",
+    "subtitle": "Ranked by annual benefit, then deadline. Every colour and height has a reasoning you can read.",
+    "empty": {
+      "title": "Let’s build your profile first.",
+      "body": "A few details are enough to check every scheme in the catalogue.",
+      "cta": "Go to my profile"
+    },
+    "listTitle": "All schemes, in plain text",
+    "rank": "Rank {{rank}}",
+    "annualBenefit": "Annual benefit",
+    "deadline": "Deadline",
+    "missingDocs": "Missing documents",
+    "allDocs": "All required documents are uploaded.",
+    "why": "Why this result",
+    "passed": "Met",
+    "failed": "Not met",
+    "needsInfo": "Needs information",
+    "noProfile": "Complete your profile to check eligibility.",
+    "sceneHint": "Select a result to see its details. The full list below has the same information.",
+    "filter": {
+      "all": "All",
+      "eligible": "Eligible",
+      "likely": "Likely",
+      "not_eligible": "Not eligible"
+    },
+    "summary": "{{eligible}} eligible · {{likely}} likely · {{notEligible}} not eligible",
+    "docsNeeded": "{{count}} document(s) needed",
+    "editProfile": "Edit profile",
+    "listen": "Listen to my matches",
+    "listenScheme": "Read this match aloud",
+    "ask": "Ask Sahayak",
+    "possibleBenefit": "Potential benefit / year",
+    "confirmedBenefit": "Confirmed eligible benefit / year",
+    "fillMissing": "Fill missing info",
+    "profileQuestions": "Profile questions needed",
+    "profileCriteriaMet": "Profile eligibility criteria are met",
+    "sortLabel": "Sort schemes",
+    "sortBenefit": "Highest benefit",
+    "sortDeadline": "Earliest deadline",
+    "sortMissing": "Fewest missing criteria",
+    "printChecklist": "Download / print checklist",
+    "smartDocuments": "Combined document checklist",
+    "ready": "ready",
+    "unlocks": "Unlocks {{count}} scheme(s)",
+    "contextPrompt": "Explain why {{scheme}} is eligible or not eligible. Deadline: {{deadline}}. Conditions met: {{met}}. Missing or not met: {{missing}}. Give exact next steps.",
+    "deadlineSoon": "Deadline within 45 days",
+    "noFilterMatches": "No schemes in this filter. Try another one.",
+    "showInGarden": "Show in garden",
+    "viewMatches": "See my matches"
+  },
+  "scheme": {
+    "eyebrow": "Scheme detail",
+    "about": "About this scheme",
+    "benefit": "Annual benefit",
+    "deadline": "Last date",
+    "authority": "Offered by",
+    "rulesTitle": "Conditions and your result",
+    "documentsTitle": "Documents to collect",
+    "rightsTitle": "Your rights",
+    "grievanceTitle": "Grievance and help",
+    "sourceTitle": "Official source",
+    "officialSource": "Open official scheme page",
+    "sourceNotice": "This demo uses sample thresholds. Verify this scheme and its deadline on the official source before applying.",
+    "backToResults": "Back to matches",
+    "statusTitle": "Your eligibility",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "required": "Required",
+    "missing": "Missing",
+    "found": "Uploaded",
+    "notFound": "No matching scheme was found.",
+    "chatComing": "Ask Sahayak about this scheme",
+    "listen": "Read this scheme aloud",
+    "applyComing": "The guided application flow is not enabled in this demo build yet. Use the official source above to apply.",
+    "applyNow": "Apply now"
+  },
+  "quickAnswer": {
+    "yes": "Yes",
+    "no": "No",
+    "save": "Save and recalculate",
+    "disabilityHint": "Answer yes only if the disability is certified at 40% or more."
+  },
+  "privacy": {
+    "eyebrow": "Privacy",
+    "title": "Your data belongs to you.",
+    "subtitle": "Sahayak keeps the demo small on purpose: no Aadhaar numbers, no payment details, no hidden sharing.",
+    "whatTitle": "What is stored",
+    "whatBody": "An anonymous signed session, your profile fields, and — when you use those features — uploaded documents and application records. Files live locally on this machine.",
+    "deleteTitle": "Delete everything",
+    "deleteBody": "This removes your profile, uploaded documents, applications, audit entries and generated receipts for this anonymous session. It cannot be undone.",
+    "confirmTitle": "Are you sure?",
+    "confirmBody": "This action permanently deletes your Sahayak data on this machine.",
+    "confirmDelete": "Yes, delete my data",
+    "deleting": "Deleting…",
+    "cards": {
+      "expiry": {
+        "title": "24-hour file expiry",
+        "body": "Uploaded documents expire by default after 24 hours and are removed by a cleanup task."
+      },
+      "noAadhaar": {
+        "title": "No Aadhaar storage",
+        "body": "We never ask for or store Aadhaar numbers. Sensitive values are masked in audit logs."
+      },
+      "consent": {
+        "title": "Consent before submission",
+        "body": "The application agent cannot press Final Submit without a fresh consent token recorded by the backend."
+      }
+    }
+  },
+  "assistant": {
+    "open": "Ask Sahayak",
+    "close": "Close assistant",
+    "closeShort": "Close",
+    "title": "Sahayak voice assistant",
+    "eyebrow": "Voice copilot",
+    "subtitle": "Ask about matches, documents, deadlines or this page.",
+    "conversation": "Voice assistant conversation",
+    "groundedNote": "From your profile and scheme JSON",
+    "settings": "Voice settings",
+    "handsFree": "Hands-free",
+    "handsFreeHint": "Listen again after each reply.",
+    "handsFreeOn": "Hands-free after each reply. Tap the mic to interrupt.",
+    "speakReplies": "Speak replies",
+    "speed": "Voice speed",
+    "speedSlow": "Slow",
+    "speedNormal": "Normal",
+    "speedFast": "Fast",
+    "muteReplies": "Mute spoken replies",
+    "unmuteReplies": "Unmute spoken replies",
+    "replay": "Read this reply aloud",
+    "micStart": "Start listening",
+    "micStop": "Stop listening",
+    "micHint": "Tap the mic once. Then I keep listening after each reply.",
+    "inputLabel": "Ask Sahayak a question",
+    "inputPlaceholder": "Type your question…",
+    "listeningPlaceholder": "Listening… speak naturally",
+    "send": "Send",
+    "sahayak": "Sahayak",
+    "you": "You",
+    "tryAsking": "Try asking",
+    "status": {
+      "idle": "Ready when you are",
+      "listening": "Listening…",
+      "thinking": "Thinking…",
+      "speaking": "Speaking…"
+    },
+    "errors": {
+      "micDenied": "Microphone access is blocked. You can type your question below.",
+      "noSpeech": "I did not catch that. Tap the mic and try again.",
+      "voiceUnsupported": "Voice input is not available in this browser. Type your question instead.",
+      "voiceError": "Voice input stopped unexpectedly. You can type instead.",
+      "ttsUnsupported": "Read-aloud is unavailable here.",
+      "ttsFailed": "I could not read that aloud.",
+      "replyFailed": "I could not answer that just now. Please try again."
+    },
+    "suggestions": {
+      "eligibility": "What am I eligible for?",
+      "documents": "Which documents are missing?",
+      "readResults": "Read my results",
+      "missingProfile": "What details are missing?",
+      "profile": "Go to my profile",
+      "help": "What can you do?",
+      "howToStart": "How do I start?",
+      "schemeDocuments": "Documents for this scheme",
+      "schemeDeadline": "When is the deadline?",
+      "schemeWhy": "Why this result?",
+      "schemeRead": "Read this scheme"
+    },
+    "prompts": {
+      "schemeInfo": "Tell me about this scheme."
+    },
+    "pages": {
+      "home": "home",
+      "profile": "your profile",
+      "results": "your matches",
+      "privacy": "privacy and data",
+      "scheme": "the scheme",
+      "other": "the page"
+    },
+    "replies": {
+      "greeting": "Hello, I am Sahayak. I can explain your matches, documents and deadlines from the scheme data on this page. Ask me a question, or tap the microphone.",
+      "help": "I can tell you which schemes you match, why a condition passed or failed, which documents are missing, and when each scheme closes. I can also read a page aloud and switch between English, Hindi and Marathi.",
+      "thanks": "You are welcome. What else would you like to know?",
+      "stop": "Stopped. Tap the microphone when you want to speak again.",
+      "noProfile": "I need a profile before I can check schemes. Say “go to my profile” and we can start there.",
+      "noMatch": "Your profile is ready, but I do not have your matches yet. Open your matches and I will read them.",
+      "noSchemes": "No scheme data is loaded right now. Check the backend and try again.",
+      "eligibilityHead": "You are eligible for {{count}} schemes: {{names}}.",
+      "eligibilityHead_one": "You are eligible for one scheme: {{names}}.",
+      "eligibilityHead_other": "You are eligible for {{count}} schemes: {{names}}.",
+      "eligibilityNone": "I did not find a fully eligible scheme yet.",
+      "eligibilityFollowUp": "Ask me about documents or deadlines for any of them.",
+      "likelyLine": "You may also qualify for {{names}} if a few details are confirmed.",
+      "benefitLine": "The potential benefit is about {{amount}} per year.",
+      "currencyAmount": "{{amount}} rupees",
+      "documentsScheme": "For {{scheme}}, you need {{documents}}.",
+      "documentsMissing": "Still missing: {{documents}}.",
+      "documentsAll": "You already have all required documents.",
+      "documentsNoResult": "Build your profile to check which documents are still missing.",
+      "documentsNoMatch": "Open your matches first and I can check your documents.",
+      "documentsGeneric": "These documents are missing for your matched schemes: {{documents}}.",
+      "documentsNone": "I do not see any missing documents for your matched schemes.",
+      "deadlineScheme": "{{scheme}} closes on {{date}}.",
+      "deadlineItem": "{{scheme}} on {{date}}",
+      "deadlines": "Your matched schemes close on these dates: {{items}}.",
+      "deadlinesNone": "I do not have deadlines yet. Build your profile and open your matches.",
+      "schemeInfo": "{{scheme}} is offered by {{authority}}. It gives up to {{amount}} per year. The deadline is {{date}}.",
+      "schemeInfoDocs": "You need {{count}} documents.",
+      "schemeInfoDocs_one": "You need one document.",
+      "schemeInfoDocs_other": "You need {{count}} documents.",
+      "schemeInfoStatus": "Your result is {{status}}.",
+      "schemeInfoNoStatus": "Build your profile to see whether you qualify.",
+      "schemeList": "The schemes I can explain are {{names}}. Which one would you like?",
+      "whyNoScheme": "Which scheme should I explain? You can pick one of {{names}}.",
+      "whyNoResult": "I do not have an eligibility result for {{scheme}} yet. Open your matches first.",
+      "whyNone": "You meet every published condition for {{scheme}}.",
+      "whyIntro": "For {{scheme}}, {{count}} conditions are not met. {{reasons}}",
+      "whyIntro_one": "For {{scheme}}, one condition is not met. {{reasons}}",
+      "whyIntro_other": "For {{scheme}}, {{count}} conditions are not met. {{reasons}}",
+      "rule": "For {{scheme}}: {{label}}. Your result: {{outcome}}.",
+      "ruleNoScheme": "Which scheme do you mean? You can pick one of {{names}}.",
+      "ruleNoRule": "I could not find that condition for {{scheme}}.",
+      "ruleNoResult": "not checked yet",
+      "missingProfile": "Your profile is {{percent}} percent complete. Still missing: {{fields}}.",
+      "profileComplete": "Your profile is complete. You can ask about your matches or documents.",
+      "readHome": "Sahayak helps you find scholarships, understand every rule, and apply with your consent. Start by saying: build my profile.",
+      "readProfile": "Your profile is {{percent}} percent complete. Still missing: {{fields}}.",
+      "readResults": "You are eligible for {{count}} schemes: {{names}}. The potential benefit is about {{amount}} per year.",
+      "readResults_one": "You are eligible for one scheme: {{names}}. The potential benefit is about {{amount}} per year.",
+      "readResults_other": "You are eligible for {{count}} schemes: {{names}}. The potential benefit is about {{amount}} per year.",
+      "readResultsNone": "You do not have a fully eligible scheme yet. {{likely}}",
+      "readResultsEmpty": "I do not have matches yet. Build your profile first.",
+      "readScheme": "{{scheme}}. {{description}} It gives up to {{amount}} per year. The deadline is {{date}}. You need these documents: {{documents}}.",
+      "readSchemePrompt": "Which scheme should I read? I can read {{names}}.",
+      "readPrivacy": "Your data belongs to you. Sahayak stores an anonymous session and your profile, and you can delete everything from the privacy page.",
+      "readOther": "I can read your matches or a scheme page. Open one and ask again.",
+      "navigate": "Opening {{page}}.",
+      "language": "Language changed to {{language}}.",
+      "fallback": "I am not sure I understood. I can explain matches, documents, deadlines, or read a page aloud. Try asking: what am I eligible for?",
+      "nothingToRepeat": "I have not said anything yet. Ask me about your matches, documents or deadlines.",
+      "farewell": "Goodbye. I will be here when you need me."
+    }
+  },
+  "notFound": {
+    "title": "This path has not been planted yet.",
+    "body": "The page you followed does not exist.",
+    "cta": "Return home"
+  },
+  "loading": {
+    "profile": "Opening your profile…",
+    "results": "Growing your matches…",
+    "schemes": "Opening the scheme garden…",
+    "page": "Loading…"
+  },
+  "errors": {
+    "backendOffline": "The API is not reachable. Start the backend on port 8000, then refresh.",
+    "retryHint": "If this keeps happening, check the backend logs."
+  },
+  "pageTitles": {
+    "home": "Sahayak — Find what you deserve",
+    "profile": "Your profile · Sahayak",
+    "results": "Your matches · Sahayak",
+    "scheme": "Scheme details · Sahayak",
+    "privacy": "Privacy & data · Sahayak",
+    "notFound": "Page not found · Sahayak"
+  }
+}

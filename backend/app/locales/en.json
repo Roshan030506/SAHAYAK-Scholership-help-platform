@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "language_name": "English"
+  },
+  "profile": {
+    "fields": {
+      "name": "name",
+      "age": "age",
+      "gender": "gender",
+      "state": "state",
+      "district": "district",
+      "category": "category",
+      "annual_family_income": "annual family income",
+      "education_level": "education level",
+      "last_exam_percentage": "last exam percentage",
+      "course": "course",
+      "institution_type": "institution type",
+      "disability_status": "disability status",
+      "bank_account_present": "bank account"
+    }
+  },
+  "reasons": {
+    "passed": "Met: {label}",
+    "failed": "Not met: {label}",
+    "unknown": "Needs information: {label}",
+    "missing_field": "Add your {field} to check this condition.",
+    "status": {
+      "eligible": "You appear eligible for this scheme.",
+      "likely": "You may be eligible. Some details are still missing.",
+      "not_eligible": "You are not eligible for this scheme."
+    },
+    "summary": {
+      "eligible": "All {total} conditions are met.",
+      "likely": "{passed} of {total} conditions met; {unknown} need more information.",
+      "not_eligible": "{failed} of {total} conditions are not met."
+    }
+  },
+  "documents": {
+    "income_certificate": "Income certificate",
+    "marksheet": "Marksheet",
+    "caste_certificate": "Caste certificate",
+    "ration_card": "Ration card",
+    "disability_certificate": "Disability certificate",
+    "domicile_certificate": "Domicile certificate",
+    "bank_passbook": "Bank passbook",
+    "mismatch_minor": "{field} differs slightly across documents.",
+    "mismatch_major": "{field} differs substantially across documents.",
+    "mismatch_fix": "Ask the issuing office to correct or re-issue the document."
+  },
+  "ui": {
+    "disclaimer": "Demo uses a mock portal and sample scheme data. Always verify on the official source.",
+    "match_disclaimer": "Eligibility is calculated by deterministic rules on sample data. Verify thresholds and deadlines on the official scheme page before applying.",
+    "missing_documents": "{count} required document(s) are missing."
+  },
+  "from_text": {
+    "no_fields": "I could not find profile details in that text yet. Try mentioning your age, state, category, education and family income.",
+    "found": "I found {count} profile detail(s). Please review them before saving."
+  }
+}
